@@ -8,6 +8,24 @@
 新文本 ──NER──▶ 实体 ──实体链接──▶ 实体对 ──RE──▶ 候选三元组 ──过滤──▶ 合并 ──规则推理──▶ Neo4j / 可视化
 ```
 
+## 效果展示
+
+**完整图谱**：173 个实体、429 条三元组。颜色表示实体类型；灰色实线是人工种子，橙色是模型抽取，青色虚线是规则推理；橙色描边的节点是模型从新文本中发现的实体。
+
+![完整知识图谱](docs/images/full_graph.png)
+
+**部分概念的一跳邻域**：中心实体周围按关系类型排列，边上标注中文关系。
+
+| 正定矩阵：上位概念、性质、判据、分解方法 | 特征值：定义依赖、求解方法、相关定理 |
+|---|---|
+| ![正定矩阵](docs/images/focus_positive_definite.png) | ![特征值](docs/images/focus_eigenvalue.png) |
+| **线性方程组**：求解方法、组成与子类 | **格拉姆矩阵**（模型新发现的实体）：抽取出"上位概念：半正定矩阵"后，规则推理补全了 8 条三元组 |
+| ![线性方程组](docs/images/focus_linear_system.png) | ![格拉姆矩阵](docs/images/focus_gram_matrix.png) |
+
+**交互页面** `outputs/kg/kg_view.html`：可以搜索实体，按类型、来源、关系筛选，点击节点查看它的全部三元组。
+
+![交互页面](docs/images/viewer_ui.png)
+
 ## 1. 本体设计
 
 | 实体类型 | 含义 | 数量 | 例子 |
@@ -117,7 +135,8 @@
 
 | 文件 | 说明 |
 |---|---|
-| `outputs/kg/kg_view.html` | 交互式图谱：浏览器直接打开，可搜索、按类型/来源/关系筛选，点击节点查看三元组 |
+| `outputs/kg/kg_view.html` | 交互式图谱：浏览器直接打开，可搜索、按类型/来源/关系筛选，点击节点查看三元组。支持 URL 参数：`?focus=特征值` 只看某个实体的邻域，`&hops=2` 看两跳，`&src=seed,extracted` 只看指定来源，`&embed=1` 隐藏侧栏 |
+| `docs/images/` | README 配图，运行 `./docs/make_screenshots.sh` 用无头 Chrome 重新生成 |
 | `outputs/kg/neo4j_import.cypher` | Neo4j 导入脚本（节点标签和关系类型都是中文） |
 | `outputs/kg/nodes.csv`、`edges.csv`、`kg.json` | 图谱数据 |
 | `outputs/kg/extracted_candidates.tsv` | 模型抽取的全部候选三元组及置信度 |
@@ -150,7 +169,7 @@ brew install openjdk@21
 图谱在 Neo4j 中的结构：
 - **节点标签**：直接用中文类型，即 `概念`、`定理`、`性质`、`运算`、`方法`，Neo4j Browser 会给每种类型自动分配不同颜色。属性有 `name`、`type`、`source`，以及 `kg='linear_algebra'`（用于整体清除和重新导入）。
 - **关系类型**：直接用中文，即 `上位概念`、`组成部分`、`定义依赖`、`具有性质`、`等价`、`求解方法`、`作用对象`、`得到结果`、`定理涉及`。属性有 `relation`（英文名）、`source`（seed / extracted / inferred），以及 `score`、`rule`、`via`。
-- **单独重新生成导入脚本**：运行 `python3 kg/export_neo4j.py`，它直接读取 `kg.json`，不需要 PyTorch。
+- **单独重新生成导入脚本和可视化页面**：运行 `python3 kg/export_neo4j.py`，它直接读取 `kg.json`，不需要 PyTorch。
 
 示例查询：
 ```cypher

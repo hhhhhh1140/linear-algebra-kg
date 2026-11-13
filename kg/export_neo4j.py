@@ -1,4 +1,4 @@
-"""把 outputs/kg/kg.json 导出为 Neo4j 导入脚本（不依赖 PyTorch，可单独运行）。
+"""把 outputs/kg/kg.json 导出为 Neo4j 导入脚本和交互式可视化页面（不依赖 PyTorch，可单独运行）。
 
 为了在 Neo4j Browser 里直观：
   * 节点标签直接用中文类型（概念 / 定理 / 性质 / 运算 / 方法），每种类型自动显示不同颜色；
@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import ENTITY_TYPES, OUT, RELATIONS  # noqa: E402
+from common import DATA, ENTITY_TYPES, OUT, RELATIONS  # noqa: E402
 
 KG_TAG = "linear_algebra"
 
@@ -56,11 +56,19 @@ def export_cypher(path: Path, nodes: list[dict], edges: list[dict]):
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def export_html(path: Path, nodes: list[dict], edges: list[dict]):
+    tpl = (DATA.parent / "kg" / "viewer_template.html").read_text(encoding="utf-8")
+    data = {"nodes": nodes, "edges": edges,
+            "types": ENTITY_TYPES, "relations": {k: v[0] for k, v in RELATIONS.items()}}
+    path.write_text(tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False)), encoding="utf-8")
+
+
 def main():
     kg = json.loads((OUT / "kg" / "kg.json").read_text(encoding="utf-8"))
     path = OUT / "kg" / "neo4j_import.cypher"
     export_cypher(path, kg["nodes"], kg["edges"])
-    print(f"已导出 {len(kg['nodes'])} 个节点、{len(kg['edges'])} 条关系 -> {path}")
+    export_html(OUT / "kg" / "kg_view.html", kg["nodes"], kg["edges"])
+    print(f"已导出 {len(kg['nodes'])} 个节点、{len(kg['edges'])} 条关系 -> {path} 和 kg_view.html")
 
 
 if __name__ == "__main__":

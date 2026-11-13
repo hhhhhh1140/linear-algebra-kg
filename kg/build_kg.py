@@ -14,7 +14,7 @@ import torch
 from common import (DATA, ENTITY_TYPES, OUT, RELATIONS, load_entities, load_lines, load_triples)
 from models import BertFeaturizer, BiLSTMCRF, BiLSTMRelation, CharVocab
 from pipeline import Inputs, extract_triples
-from export_neo4j import export_cypher
+from export_neo4j import export_cypher, export_html
 
 def load_models(encoder):
     ck = torch.load(OUT / encoder / "model.pt")
@@ -72,13 +72,6 @@ def infer(facts: dict):
 
 
 # ------------------------------------------------------------------ 导出
-def export_html(path, nodes, edges):
-    tpl = (DATA.parent / "kg" / "viewer_template.html").read_text(encoding="utf-8")
-    data = {"nodes": nodes, "edges": edges,
-            "types": ENTITY_TYPES, "relations": {k: v[0] for k, v in RELATIONS.items()}}
-    path.write_text(tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False)), encoding="utf-8")
-
-
 def plausible_new_entity(name, known):
     """新实体的质量过滤：至少 3 个字、不含"的"和标点、不是已知实体名的片段。"""
     return (len(name) >= 3 and "的" not in name and not any(c in name for c in "，。、；：")
