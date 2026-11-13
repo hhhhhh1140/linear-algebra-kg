@@ -1,0 +1,3779 @@
+{
+ "nodes": [
+  {
+   "name": "向量",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "零向量",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "行向量",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "列向量",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "单位向量",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "向量组",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "正交向量组",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "线性组合",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "极大线性无关组",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "向量组的秩",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "方阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "零矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "单位矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "对角矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "三角矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "上三角矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "下三角矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "对称矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "实对称矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "反对称矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "正交矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "可逆矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "奇异矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "逆矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "伴随矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "初等矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "分块矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "系数矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "增广矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "行阶梯形矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "行最简形矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "正定矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "半正定矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "幂零矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "幂等矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "埃尔米特矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "酉矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "相似矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "过渡矩阵",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "若尔当标准形",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "若尔当块",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "行列式",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "子式",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "余子式",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "代数余子式",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "主子式",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "顺序主子式",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "秩",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "迹",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "特征值",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "特征向量",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "特征多项式",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "特征方程",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "特征子空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "最小多项式",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "代数重数",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "几何重数",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "线性方程组",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "齐次线性方程组",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "非齐次线性方程组",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "基础解系",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "通解",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "特解",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "向量空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "子空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "零空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "列空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "行空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "生成子空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "直和",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "基底",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "维数",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "坐标",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "线性变换",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "线性映射",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "核空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "像空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "零化度",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "内积",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "内积空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "欧几里得空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "酉空间",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "范数",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "正交基",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "标准正交基",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "正交补",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "正交投影",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "二次型",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "标准形",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "规范形",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "惯性指数",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "正惯性指数",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "负惯性指数",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "正定二次型",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "奇异值",
+   "type": "CON",
+   "source": "seed"
+  },
+  {
+   "name": "线性相关",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "线性无关",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "可逆性",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "满秩",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "可对角化",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "正定性",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "对称性",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "结合律",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "分配律",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "交换律",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "非交换性",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "线性性",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "多重线性",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "交错性",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "正交性",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "特征值全为实数",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "特征值全为正",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "保持内积",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "保持长度",
+   "type": "PROP",
+   "source": "seed"
+  },
+  {
+   "name": "矩阵加法",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "数乘",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "矩阵乘法",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "转置",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "共轭转置",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "求逆",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "初等变换",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "初等行变换",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "向量加法",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "向量积",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "矩阵的幂",
+   "type": "OP",
+   "source": "seed"
+  },
+  {
+   "name": "高斯消元法",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "高斯-约当消元法",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "拉普拉斯展开",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "对角线法则",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "施密特正交化",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "相似对角化",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "正交对角化",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "配方法",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "正交变换法",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "初等变换法",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "伴随矩阵法",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "LU分解",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "QR分解",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "奇异值分解",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "特征分解",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "楚列斯基分解",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "最小二乘法",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "幂法",
+   "type": "METH",
+   "source": "seed"
+  },
+  {
+   "name": "凯莱-哈密顿定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "秩-零化度定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "谱定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "惯性定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "柯西-施瓦茨不等式",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "三角不等式",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "克拉默法则",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "行列式乘法定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "可逆矩阵定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "西尔维斯特判据",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "若尔当标准形定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "线性方程组解的判定定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "维数公式",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "舒尔定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "基扩充定理",
+   "type": "THM",
+   "source": "seed"
+  },
+  {
+   "name": "格拉姆矩阵",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "范德蒙德行列式",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "希尔伯特空间",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "循环矩阵",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "托普利茨矩阵",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "正规矩阵",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "伪逆矩阵",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "条件数",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "哈达玛积",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "希尔伯特矩阵",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "雅可比迭代法",
+   "type": "METH",
+   "source": "extracted"
+  },
+  {
+   "name": "豪斯霍尔德变换",
+   "type": "THM",
+   "source": "extracted"
+  },
+  {
+   "name": "吉文斯旋转矩阵",
+   "type": "CON",
+   "source": "extracted"
+  },
+  {
+   "name": "矩阵指数",
+   "type": "CON",
+   "source": "extracted"
+  }
+ ],
+ "edges": [
+  {
+   "head": "零向量",
+   "relation": "is_a",
+   "tail": "向量",
+   "source": "seed"
+  },
+  {
+   "head": "行向量",
+   "relation": "is_a",
+   "tail": "向量",
+   "source": "seed"
+  },
+  {
+   "head": "列向量",
+   "relation": "is_a",
+   "tail": "向量",
+   "source": "seed"
+  },
+  {
+   "head": "单位向量",
+   "relation": "is_a",
+   "tail": "向量",
+   "source": "seed"
+  },
+  {
+   "head": "正交向量组",
+   "relation": "is_a",
+   "tail": "向量组",
+   "source": "seed"
+  },
+  {
+   "head": "极大线性无关组",
+   "relation": "is_a",
+   "tail": "向量组",
+   "source": "seed"
+  },
+  {
+   "head": "方阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "零矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "系数矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "增广矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "分块矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "行阶梯形矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "行最简形矩阵",
+   "relation": "is_a",
+   "tail": "行阶梯形矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "三角矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "上三角矩阵",
+   "relation": "is_a",
+   "tail": "三角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "下三角矩阵",
+   "relation": "is_a",
+   "tail": "三角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "is_a",
+   "tail": "上三角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "is_a",
+   "tail": "下三角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "is_a",
+   "tail": "对称矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "对角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "正交矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "幂等矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "对称矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "实对称矩阵",
+   "relation": "is_a",
+   "tail": "对称矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "实对称矩阵",
+   "relation": "is_a",
+   "tail": "埃尔米特矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "反对称矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "埃尔米特矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "is_a",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "is_a",
+   "tail": "酉矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "is_a",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "可逆矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "奇异矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "初等矩阵",
+   "relation": "is_a",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "is_a",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "过渡矩阵",
+   "relation": "is_a",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "伴随矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "is_a",
+   "tail": "半正定矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "is_a",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "半正定矩阵",
+   "relation": "is_a",
+   "tail": "实对称矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "幂零矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "幂等矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "若尔当块",
+   "relation": "is_a",
+   "tail": "上三角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "若尔当标准形",
+   "relation": "is_a",
+   "tail": "上三角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "子式",
+   "relation": "depends_on",
+   "tail": "行列式",
+   "source": "seed"
+  },
+  {
+   "head": "余子式",
+   "relation": "is_a",
+   "tail": "子式",
+   "source": "seed"
+  },
+  {
+   "head": "主子式",
+   "relation": "is_a",
+   "tail": "子式",
+   "source": "seed"
+  },
+  {
+   "head": "顺序主子式",
+   "relation": "is_a",
+   "tail": "主子式",
+   "source": "seed"
+  },
+  {
+   "head": "齐次线性方程组",
+   "relation": "is_a",
+   "tail": "线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "非齐次线性方程组",
+   "relation": "is_a",
+   "tail": "线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "子空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "seed"
+  },
+  {
+   "head": "零空间",
+   "relation": "is_a",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "列空间",
+   "relation": "is_a",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "行空间",
+   "relation": "is_a",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "特征子空间",
+   "relation": "is_a",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "生成子空间",
+   "relation": "is_a",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "核空间",
+   "relation": "is_a",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "像空间",
+   "relation": "is_a",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "正交补",
+   "relation": "is_a",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "线性变换",
+   "relation": "is_a",
+   "tail": "线性映射",
+   "source": "seed"
+  },
+  {
+   "head": "正交投影",
+   "relation": "is_a",
+   "tail": "线性变换",
+   "source": "seed"
+  },
+  {
+   "head": "内积空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "seed"
+  },
+  {
+   "head": "欧几里得空间",
+   "relation": "is_a",
+   "tail": "内积空间",
+   "source": "seed"
+  },
+  {
+   "head": "酉空间",
+   "relation": "is_a",
+   "tail": "内积空间",
+   "source": "seed"
+  },
+  {
+   "head": "正交基",
+   "relation": "is_a",
+   "tail": "基底",
+   "source": "seed"
+  },
+  {
+   "head": "标准正交基",
+   "relation": "is_a",
+   "tail": "正交基",
+   "source": "seed"
+  },
+  {
+   "head": "正定二次型",
+   "relation": "is_a",
+   "tail": "二次型",
+   "source": "seed"
+  },
+  {
+   "head": "规范形",
+   "relation": "is_a",
+   "tail": "标准形",
+   "source": "seed"
+  },
+  {
+   "head": "正惯性指数",
+   "relation": "is_a",
+   "tail": "惯性指数",
+   "source": "seed"
+  },
+  {
+   "head": "负惯性指数",
+   "relation": "is_a",
+   "tail": "惯性指数",
+   "source": "seed"
+  },
+  {
+   "head": "初等行变换",
+   "relation": "is_a",
+   "tail": "初等变换",
+   "source": "seed"
+  },
+  {
+   "head": "高斯-约当消元法",
+   "relation": "is_a",
+   "tail": "高斯消元法",
+   "source": "seed"
+  },
+  {
+   "head": "正交对角化",
+   "relation": "is_a",
+   "tail": "相似对角化",
+   "source": "seed"
+  },
+  {
+   "head": "若尔当块",
+   "relation": "part_of",
+   "tail": "若尔当标准形",
+   "source": "seed"
+  },
+  {
+   "head": "系数矩阵",
+   "relation": "part_of",
+   "tail": "增广矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "基础解系",
+   "relation": "part_of",
+   "tail": "通解",
+   "source": "seed"
+  },
+  {
+   "head": "特解",
+   "relation": "part_of",
+   "tail": "通解",
+   "source": "seed"
+  },
+  {
+   "head": "余子式",
+   "relation": "part_of",
+   "tail": "代数余子式",
+   "source": "seed"
+  },
+  {
+   "head": "代数余子式",
+   "relation": "part_of",
+   "tail": "拉普拉斯展开",
+   "source": "seed"
+  },
+  {
+   "head": "特征向量",
+   "relation": "part_of",
+   "tail": "特征子空间",
+   "source": "seed"
+  },
+  {
+   "head": "特征值",
+   "relation": "part_of",
+   "tail": "特征分解",
+   "source": "seed"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "part_of",
+   "tail": "特征分解",
+   "source": "seed"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "part_of",
+   "tail": "奇异值分解",
+   "source": "seed"
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "part_of",
+   "tail": "奇异值分解",
+   "source": "seed"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "part_of",
+   "tail": "QR分解",
+   "source": "seed"
+  },
+  {
+   "head": "上三角矩阵",
+   "relation": "part_of",
+   "tail": "QR分解",
+   "source": "seed"
+  },
+  {
+   "head": "上三角矩阵",
+   "relation": "part_of",
+   "tail": "LU分解",
+   "source": "seed"
+  },
+  {
+   "head": "下三角矩阵",
+   "relation": "part_of",
+   "tail": "LU分解",
+   "source": "seed"
+  },
+  {
+   "head": "下三角矩阵",
+   "relation": "part_of",
+   "tail": "楚列斯基分解",
+   "source": "seed"
+  },
+  {
+   "head": "线性组合",
+   "relation": "depends_on",
+   "tail": "向量",
+   "source": "seed"
+  },
+  {
+   "head": "线性组合",
+   "relation": "depends_on",
+   "tail": "数乘",
+   "source": "seed"
+  },
+  {
+   "head": "线性相关",
+   "relation": "depends_on",
+   "tail": "线性组合",
+   "source": "seed"
+  },
+  {
+   "head": "线性无关",
+   "relation": "depends_on",
+   "tail": "线性相关",
+   "source": "seed"
+  },
+  {
+   "head": "极大线性无关组",
+   "relation": "depends_on",
+   "tail": "线性无关",
+   "source": "seed"
+  },
+  {
+   "head": "向量组的秩",
+   "relation": "depends_on",
+   "tail": "极大线性无关组",
+   "source": "seed"
+  },
+  {
+   "head": "基底",
+   "relation": "depends_on",
+   "tail": "线性无关",
+   "source": "seed"
+  },
+  {
+   "head": "基底",
+   "relation": "depends_on",
+   "tail": "生成子空间",
+   "source": "seed"
+  },
+  {
+   "head": "维数",
+   "relation": "depends_on",
+   "tail": "基底",
+   "source": "seed"
+  },
+  {
+   "head": "坐标",
+   "relation": "depends_on",
+   "tail": "基底",
+   "source": "seed"
+  },
+  {
+   "head": "过渡矩阵",
+   "relation": "depends_on",
+   "tail": "基底",
+   "source": "seed"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "depends_on",
+   "tail": "单位矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "depends_on",
+   "tail": "矩阵乘法",
+   "source": "seed"
+  },
+  {
+   "head": "伴随矩阵",
+   "relation": "depends_on",
+   "tail": "代数余子式",
+   "source": "seed"
+  },
+  {
+   "head": "代数余子式",
+   "relation": "depends_on",
+   "tail": "余子式",
+   "source": "seed"
+  },
+  {
+   "head": "秩",
+   "relation": "depends_on",
+   "tail": "子式",
+   "source": "seed"
+  },
+  {
+   "head": "满秩",
+   "relation": "depends_on",
+   "tail": "秩",
+   "source": "seed"
+  },
+  {
+   "head": "特征向量",
+   "relation": "depends_on",
+   "tail": "特征值",
+   "source": "seed"
+  },
+  {
+   "head": "特征方程",
+   "relation": "depends_on",
+   "tail": "特征多项式",
+   "source": "seed"
+  },
+  {
+   "head": "特征多项式",
+   "relation": "depends_on",
+   "tail": "行列式",
+   "source": "seed"
+  },
+  {
+   "head": "特征子空间",
+   "relation": "depends_on",
+   "tail": "特征值",
+   "source": "seed"
+  },
+  {
+   "head": "代数重数",
+   "relation": "depends_on",
+   "tail": "特征多项式",
+   "source": "seed"
+  },
+  {
+   "head": "几何重数",
+   "relation": "depends_on",
+   "tail": "特征子空间",
+   "source": "seed"
+  },
+  {
+   "head": "相似矩阵",
+   "relation": "depends_on",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "可对角化",
+   "relation": "depends_on",
+   "tail": "对角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "可对角化",
+   "relation": "depends_on",
+   "tail": "相似矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "迹",
+   "relation": "depends_on",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "零空间",
+   "relation": "depends_on",
+   "tail": "齐次线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "列空间",
+   "relation": "depends_on",
+   "tail": "生成子空间",
+   "source": "seed"
+  },
+  {
+   "head": "行空间",
+   "relation": "depends_on",
+   "tail": "生成子空间",
+   "source": "seed"
+  },
+  {
+   "head": "核空间",
+   "relation": "depends_on",
+   "tail": "线性映射",
+   "source": "seed"
+  },
+  {
+   "head": "像空间",
+   "relation": "depends_on",
+   "tail": "线性映射",
+   "source": "seed"
+  },
+  {
+   "head": "零化度",
+   "relation": "depends_on",
+   "tail": "零空间",
+   "source": "seed"
+  },
+  {
+   "head": "线性映射",
+   "relation": "depends_on",
+   "tail": "向量空间",
+   "source": "seed"
+  },
+  {
+   "head": "内积空间",
+   "relation": "depends_on",
+   "tail": "内积",
+   "source": "seed"
+  },
+  {
+   "head": "范数",
+   "relation": "depends_on",
+   "tail": "内积",
+   "source": "seed"
+  },
+  {
+   "head": "单位向量",
+   "relation": "depends_on",
+   "tail": "范数",
+   "source": "seed"
+  },
+  {
+   "head": "正交补",
+   "relation": "depends_on",
+   "tail": "内积",
+   "source": "seed"
+  },
+  {
+   "head": "正交投影",
+   "relation": "depends_on",
+   "tail": "正交补",
+   "source": "seed"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "depends_on",
+   "tail": "转置",
+   "source": "seed"
+  },
+  {
+   "head": "对称矩阵",
+   "relation": "depends_on",
+   "tail": "转置",
+   "source": "seed"
+  },
+  {
+   "head": "反对称矩阵",
+   "relation": "depends_on",
+   "tail": "转置",
+   "source": "seed"
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "depends_on",
+   "tail": "共轭转置",
+   "source": "seed"
+  },
+  {
+   "head": "埃尔米特矩阵",
+   "relation": "depends_on",
+   "tail": "共轭转置",
+   "source": "seed"
+  },
+  {
+   "head": "二次型",
+   "relation": "depends_on",
+   "tail": "实对称矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "标准形",
+   "relation": "depends_on",
+   "tail": "二次型",
+   "source": "seed"
+  },
+  {
+   "head": "惯性指数",
+   "relation": "depends_on",
+   "tail": "规范形",
+   "source": "seed"
+  },
+  {
+   "head": "奇异值",
+   "relation": "depends_on",
+   "tail": "特征值",
+   "source": "seed"
+  },
+  {
+   "head": "基础解系",
+   "relation": "depends_on",
+   "tail": "齐次线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "基础解系",
+   "relation": "depends_on",
+   "tail": "线性无关",
+   "source": "seed"
+  },
+  {
+   "head": "特解",
+   "relation": "depends_on",
+   "tail": "非齐次线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "系数矩阵",
+   "relation": "depends_on",
+   "tail": "线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "增广矩阵",
+   "relation": "depends_on",
+   "tail": "线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "直和",
+   "relation": "depends_on",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "幂零矩阵",
+   "relation": "depends_on",
+   "tail": "矩阵的幂",
+   "source": "seed"
+  },
+  {
+   "head": "幂等矩阵",
+   "relation": "depends_on",
+   "tail": "矩阵乘法",
+   "source": "seed"
+  },
+  {
+   "head": "若尔当块",
+   "relation": "depends_on",
+   "tail": "特征值",
+   "source": "seed"
+  },
+  {
+   "head": "最小二乘法",
+   "relation": "depends_on",
+   "tail": "正交投影",
+   "source": "seed"
+  },
+  {
+   "head": "矩阵加法",
+   "relation": "has_property",
+   "tail": "交换律",
+   "source": "seed"
+  },
+  {
+   "head": "矩阵加法",
+   "relation": "has_property",
+   "tail": "结合律",
+   "source": "seed"
+  },
+  {
+   "head": "矩阵乘法",
+   "relation": "has_property",
+   "tail": "结合律",
+   "source": "seed"
+  },
+  {
+   "head": "矩阵乘法",
+   "relation": "has_property",
+   "tail": "分配律",
+   "source": "seed"
+  },
+  {
+   "head": "矩阵乘法",
+   "relation": "has_property",
+   "tail": "非交换性",
+   "source": "seed"
+  },
+  {
+   "head": "向量加法",
+   "relation": "has_property",
+   "tail": "交换律",
+   "source": "seed"
+  },
+  {
+   "head": "向量加法",
+   "relation": "has_property",
+   "tail": "结合律",
+   "source": "seed"
+  },
+  {
+   "head": "数乘",
+   "relation": "has_property",
+   "tail": "分配律",
+   "source": "seed"
+  },
+  {
+   "head": "行列式",
+   "relation": "has_property",
+   "tail": "多重线性",
+   "source": "seed"
+  },
+  {
+   "head": "行列式",
+   "relation": "has_property",
+   "tail": "交错性",
+   "source": "seed"
+  },
+  {
+   "head": "线性映射",
+   "relation": "has_property",
+   "tail": "线性性",
+   "source": "seed"
+  },
+  {
+   "head": "内积",
+   "relation": "has_property",
+   "tail": "正定性",
+   "source": "seed"
+  },
+  {
+   "head": "可逆矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "seed"
+  },
+  {
+   "head": "实对称矩阵",
+   "relation": "has_property",
+   "tail": "特征值全为实数",
+   "source": "seed"
+  },
+  {
+   "head": "实对称矩阵",
+   "relation": "has_property",
+   "tail": "可对角化",
+   "source": "seed"
+  },
+  {
+   "head": "埃尔米特矩阵",
+   "relation": "has_property",
+   "tail": "特征值全为实数",
+   "source": "seed"
+  },
+  {
+   "head": "对称矩阵",
+   "relation": "has_property",
+   "tail": "对称性",
+   "source": "seed"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "has_property",
+   "tail": "正交性",
+   "source": "seed"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "has_property",
+   "tail": "保持内积",
+   "source": "seed"
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "has_property",
+   "tail": "保持内积",
+   "source": "seed"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "has_property",
+   "tail": "正定性",
+   "source": "seed"
+  },
+  {
+   "head": "正定二次型",
+   "relation": "has_property",
+   "tail": "正定性",
+   "source": "seed"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "has_property",
+   "tail": "可对角化",
+   "source": "seed"
+  },
+  {
+   "head": "正交基",
+   "relation": "has_property",
+   "tail": "正交性",
+   "source": "seed"
+  },
+  {
+   "head": "正交向量组",
+   "relation": "has_property",
+   "tail": "正交性",
+   "source": "seed"
+  },
+  {
+   "head": "可逆性",
+   "relation": "equivalent_to",
+   "tail": "满秩",
+   "source": "seed"
+  },
+  {
+   "head": "正定性",
+   "relation": "equivalent_to",
+   "tail": "特征值全为正",
+   "source": "seed"
+  },
+  {
+   "head": "保持内积",
+   "relation": "equivalent_to",
+   "tail": "保持长度",
+   "source": "seed"
+  },
+  {
+   "head": "行列式",
+   "relation": "solved_by",
+   "tail": "拉普拉斯展开",
+   "source": "seed"
+  },
+  {
+   "head": "行列式",
+   "relation": "solved_by",
+   "tail": "对角线法则",
+   "source": "seed"
+  },
+  {
+   "head": "行列式",
+   "relation": "solved_by",
+   "tail": "高斯消元法",
+   "source": "seed"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "solved_by",
+   "tail": "初等变换法",
+   "source": "seed"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "solved_by",
+   "tail": "伴随矩阵法",
+   "source": "seed"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "solved_by",
+   "tail": "高斯-约当消元法",
+   "source": "seed"
+  },
+  {
+   "head": "线性方程组",
+   "relation": "solved_by",
+   "tail": "高斯消元法",
+   "source": "seed"
+  },
+  {
+   "head": "线性方程组",
+   "relation": "solved_by",
+   "tail": "克拉默法则",
+   "source": "seed"
+  },
+  {
+   "head": "线性方程组",
+   "relation": "solved_by",
+   "tail": "LU分解",
+   "source": "seed"
+  },
+  {
+   "head": "秩",
+   "relation": "solved_by",
+   "tail": "初等行变换",
+   "source": "seed"
+  },
+  {
+   "head": "特征值",
+   "relation": "solved_by",
+   "tail": "特征方程",
+   "source": "seed"
+  },
+  {
+   "head": "特征值",
+   "relation": "solved_by",
+   "tail": "幂法",
+   "source": "seed"
+  },
+  {
+   "head": "特征向量",
+   "relation": "solved_by",
+   "tail": "齐次线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "标准形",
+   "relation": "solved_by",
+   "tail": "配方法",
+   "source": "seed"
+  },
+  {
+   "head": "标准形",
+   "relation": "solved_by",
+   "tail": "正交变换法",
+   "source": "seed"
+  },
+  {
+   "head": "奇异值",
+   "relation": "solved_by",
+   "tail": "奇异值分解",
+   "source": "seed"
+  },
+  {
+   "head": "最小二乘法",
+   "relation": "solved_by",
+   "tail": "QR分解",
+   "source": "seed"
+  },
+  {
+   "head": "正定性",
+   "relation": "solved_by",
+   "tail": "西尔维斯特判据",
+   "source": "seed"
+  },
+  {
+   "head": "矩阵加法",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "数乘",
+   "relation": "acts_on",
+   "tail": "向量",
+   "source": "seed"
+  },
+  {
+   "head": "数乘",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "矩阵乘法",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "转置",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "共轭转置",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "求逆",
+   "relation": "acts_on",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "初等行变换",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "向量加法",
+   "relation": "acts_on",
+   "tail": "向量",
+   "source": "seed"
+  },
+  {
+   "head": "向量积",
+   "relation": "acts_on",
+   "tail": "向量",
+   "source": "seed"
+  },
+  {
+   "head": "矩阵的幂",
+   "relation": "acts_on",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "高斯消元法",
+   "relation": "acts_on",
+   "tail": "增广矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "施密特正交化",
+   "relation": "acts_on",
+   "tail": "向量组",
+   "source": "seed"
+  },
+  {
+   "head": "相似对角化",
+   "relation": "acts_on",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "正交对角化",
+   "relation": "acts_on",
+   "tail": "实对称矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "配方法",
+   "relation": "acts_on",
+   "tail": "二次型",
+   "source": "seed"
+  },
+  {
+   "head": "正交变换法",
+   "relation": "acts_on",
+   "tail": "二次型",
+   "source": "seed"
+  },
+  {
+   "head": "楚列斯基分解",
+   "relation": "acts_on",
+   "tail": "正定矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "奇异值分解",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "QR分解",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "LU分解",
+   "relation": "acts_on",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "特征分解",
+   "relation": "acts_on",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "拉普拉斯展开",
+   "relation": "acts_on",
+   "tail": "行列式",
+   "source": "seed"
+  },
+  {
+   "head": "对角线法则",
+   "relation": "acts_on",
+   "tail": "行列式",
+   "source": "seed"
+  },
+  {
+   "head": "幂法",
+   "relation": "acts_on",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "伴随矩阵法",
+   "relation": "acts_on",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "初等变换法",
+   "relation": "acts_on",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "求逆",
+   "relation": "yields",
+   "tail": "逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "高斯消元法",
+   "relation": "yields",
+   "tail": "行阶梯形矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "高斯-约当消元法",
+   "relation": "yields",
+   "tail": "行最简形矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "施密特正交化",
+   "relation": "yields",
+   "tail": "标准正交基",
+   "source": "seed"
+  },
+  {
+   "head": "相似对角化",
+   "relation": "yields",
+   "tail": "对角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "凯莱-哈密顿定理",
+   "relation": "involves",
+   "tail": "特征多项式",
+   "source": "seed"
+  },
+  {
+   "head": "凯莱-哈密顿定理",
+   "relation": "involves",
+   "tail": "方阵",
+   "source": "seed"
+  },
+  {
+   "head": "凯莱-哈密顿定理",
+   "relation": "involves",
+   "tail": "最小多项式",
+   "source": "seed"
+  },
+  {
+   "head": "秩-零化度定理",
+   "relation": "involves",
+   "tail": "秩",
+   "source": "seed"
+  },
+  {
+   "head": "秩-零化度定理",
+   "relation": "involves",
+   "tail": "零化度",
+   "source": "seed"
+  },
+  {
+   "head": "秩-零化度定理",
+   "relation": "involves",
+   "tail": "线性映射",
+   "source": "seed"
+  },
+  {
+   "head": "谱定理",
+   "relation": "involves",
+   "tail": "实对称矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "谱定理",
+   "relation": "involves",
+   "tail": "正交矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "谱定理",
+   "relation": "involves",
+   "tail": "特征值",
+   "source": "seed"
+  },
+  {
+   "head": "惯性定理",
+   "relation": "involves",
+   "tail": "二次型",
+   "source": "seed"
+  },
+  {
+   "head": "惯性定理",
+   "relation": "involves",
+   "tail": "惯性指数",
+   "source": "seed"
+  },
+  {
+   "head": "惯性定理",
+   "relation": "involves",
+   "tail": "规范形",
+   "source": "seed"
+  },
+  {
+   "head": "柯西-施瓦茨不等式",
+   "relation": "involves",
+   "tail": "内积",
+   "source": "seed"
+  },
+  {
+   "head": "柯西-施瓦茨不等式",
+   "relation": "involves",
+   "tail": "范数",
+   "source": "seed"
+  },
+  {
+   "head": "三角不等式",
+   "relation": "involves",
+   "tail": "范数",
+   "source": "seed"
+  },
+  {
+   "head": "克拉默法则",
+   "relation": "involves",
+   "tail": "行列式",
+   "source": "seed"
+  },
+  {
+   "head": "克拉默法则",
+   "relation": "involves",
+   "tail": "系数矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "克拉默法则",
+   "relation": "involves",
+   "tail": "非齐次线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "行列式乘法定理",
+   "relation": "involves",
+   "tail": "行列式",
+   "source": "seed"
+  },
+  {
+   "head": "行列式乘法定理",
+   "relation": "involves",
+   "tail": "矩阵乘法",
+   "source": "seed"
+  },
+  {
+   "head": "可逆矩阵定理",
+   "relation": "involves",
+   "tail": "可逆矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "可逆矩阵定理",
+   "relation": "involves",
+   "tail": "秩",
+   "source": "seed"
+  },
+  {
+   "head": "可逆矩阵定理",
+   "relation": "involves",
+   "tail": "行列式",
+   "source": "seed"
+  },
+  {
+   "head": "可逆矩阵定理",
+   "relation": "involves",
+   "tail": "齐次线性方程组",
+   "source": "seed"
+  },
+  {
+   "head": "西尔维斯特判据",
+   "relation": "involves",
+   "tail": "顺序主子式",
+   "source": "seed"
+  },
+  {
+   "head": "西尔维斯特判据",
+   "relation": "involves",
+   "tail": "正定矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "若尔当标准形定理",
+   "relation": "involves",
+   "tail": "若尔当标准形",
+   "source": "seed"
+  },
+  {
+   "head": "若尔当标准形定理",
+   "relation": "involves",
+   "tail": "相似矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "线性方程组解的判定定理",
+   "relation": "involves",
+   "tail": "系数矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "线性方程组解的判定定理",
+   "relation": "involves",
+   "tail": "增广矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "线性方程组解的判定定理",
+   "relation": "involves",
+   "tail": "秩",
+   "source": "seed"
+  },
+  {
+   "head": "维数公式",
+   "relation": "involves",
+   "tail": "维数",
+   "source": "seed"
+  },
+  {
+   "head": "维数公式",
+   "relation": "involves",
+   "tail": "子空间",
+   "source": "seed"
+  },
+  {
+   "head": "维数公式",
+   "relation": "involves",
+   "tail": "直和",
+   "source": "seed"
+  },
+  {
+   "head": "舒尔定理",
+   "relation": "involves",
+   "tail": "上三角矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "舒尔定理",
+   "relation": "involves",
+   "tail": "酉矩阵",
+   "source": "seed"
+  },
+  {
+   "head": "基扩充定理",
+   "relation": "involves",
+   "tail": "基底",
+   "source": "seed"
+  },
+  {
+   "head": "基扩充定理",
+   "relation": "involves",
+   "tail": "线性无关",
+   "source": "seed"
+  },
+  {
+   "head": "行列式乘法定理",
+   "relation": "involves",
+   "tail": "方阵",
+   "source": "extracted",
+   "score": 0.9517,
+   "sentence": "行列式乘法定理指出两个方阵乘积的行列式等于它们行列式的乘积。"
+  },
+  {
+   "head": "线性相关",
+   "relation": "depends_on",
+   "tail": "向量",
+   "source": "extracted",
+   "score": 0.9739,
+   "sentence": "如果存在一组不全为零的系数使线性组合等于零向量，则称这组向量线性相关。"
+  },
+  {
+   "head": "通解",
+   "relation": "depends_on",
+   "tail": "特解",
+   "source": "extracted",
+   "score": 0.9615,
+   "sentence": "非齐次线性方程组的通解等于它的一个特解加上对应齐次线性方程组的通解。"
+  },
+  {
+   "head": "LU分解",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "extracted",
+   "score": 0.977,
+   "sentence": "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。"
+  },
+  {
+   "head": "向量空间",
+   "relation": "depends_on",
+   "tail": "数乘",
+   "source": "extracted",
+   "score": 0.9966,
+   "sentence": "满足加法和数乘封闭性的集合称为向量空间，也叫线性空间。"
+  },
+  {
+   "head": "线性变换",
+   "relation": "depends_on",
+   "tail": "向量空间",
+   "source": "extracted",
+   "score": 0.9709,
+   "sentence": "从向量空间到自身的线性映射称为线性变换。"
+  },
+  {
+   "head": "秩-零化度定理",
+   "relation": "involves",
+   "tail": "维数",
+   "source": "extracted",
+   "score": 0.9847,
+   "sentence": "秩-零化度定理指出，线性映射的秩与零化度之和等于定义域的维数。"
+  },
+  {
+   "head": "楚列斯基分解",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "extracted",
+   "score": 0.997,
+   "sentence": "楚列斯基分解适用于正定矩阵，它把矩阵分解为下三角矩阵与其转置的乘积。"
+  },
+  {
+   "head": "特征方程",
+   "relation": "depends_on",
+   "tail": "行列式",
+   "source": "extracted",
+   "score": 0.9813,
+   "sentence": "特征多项式是由行列式定义的，令它等于零就得到特征方程。"
+  },
+  {
+   "head": "西尔维斯特判据",
+   "relation": "involves",
+   "tail": "实对称矩阵",
+   "source": "extracted",
+   "score": 0.9793,
+   "sentence": "西尔维斯特判据指出实对称矩阵正定的充要条件是各阶顺序主子式都大于零。"
+  },
+  {
+   "head": "格拉姆矩阵",
+   "relation": "is_a",
+   "tail": "半正定矩阵",
+   "source": "extracted",
+   "score": 0.9997,
+   "sentence": "格拉姆矩阵是一种半正定矩阵。"
+  },
+  {
+   "head": "范德蒙德行列式",
+   "relation": "is_a",
+   "tail": "行列式",
+   "source": "extracted",
+   "score": 0.9985,
+   "sentence": "范德蒙德行列式是一种特殊的行列式。"
+  },
+  {
+   "head": "希尔伯特空间",
+   "relation": "is_a",
+   "tail": "内积空间",
+   "source": "extracted",
+   "score": 0.9718,
+   "sentence": "希尔伯特空间是一种完备的内积空间。"
+  },
+  {
+   "head": "循环矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "extracted",
+   "score": 0.9999,
+   "sentence": "循环矩阵属于方阵的范畴。"
+  },
+  {
+   "head": "托普利茨矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "extracted",
+   "score": 0.9998,
+   "sentence": "托普利茨矩阵是一种特殊的矩阵。"
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "is_a",
+   "tail": "正规矩阵",
+   "source": "extracted",
+   "score": 0.9669,
+   "sentence": "正规矩阵包括酉矩阵和埃尔米特矩阵等多种类型。"
+  },
+  {
+   "head": "伪逆矩阵",
+   "relation": "solved_by",
+   "tail": "奇异值分解",
+   "source": "extracted",
+   "score": 0.9999,
+   "sentence": "伪逆矩阵可以通过奇异值分解求得。"
+  },
+  {
+   "head": "条件数",
+   "relation": "depends_on",
+   "tail": "范数",
+   "source": "extracted",
+   "score": 1.0,
+   "sentence": "条件数的定义依赖于范数。"
+  },
+  {
+   "head": "条件数",
+   "relation": "depends_on",
+   "tail": "奇异值",
+   "source": "extracted",
+   "score": 0.9999,
+   "sentence": "条件数的定义依赖于奇异值。"
+  },
+  {
+   "head": "哈达玛积",
+   "relation": "depends_on",
+   "tail": "矩阵",
+   "source": "extracted",
+   "score": 0.9815,
+   "sentence": "哈达玛积适用于矩阵，它满足交换律。"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "is_a",
+   "tail": "正定矩阵",
+   "source": "extracted",
+   "score": 0.9991,
+   "sentence": "希尔伯特矩阵是一种正定矩阵。"
+  },
+  {
+   "head": "线性方程组",
+   "relation": "solved_by",
+   "tail": "雅可比迭代法",
+   "source": "extracted",
+   "score": 0.9996,
+   "sentence": "雅可比迭代法是求解线性方程组的常用方法。"
+  },
+  {
+   "head": "豪斯霍尔德变换",
+   "relation": "involves",
+   "tail": "向量",
+   "source": "extracted",
+   "score": 0.9999,
+   "sentence": "豪斯霍尔德变换可以作用于向量。"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "is_a",
+   "tail": "正交矩阵",
+   "source": "extracted",
+   "score": 0.9998,
+   "sentence": "吉文斯旋转矩阵是一种正交矩阵。"
+  },
+  {
+   "head": "正交变换法",
+   "relation": "acts_on",
+   "tail": "矩阵",
+   "source": "extracted",
+   "score": 0.9889,
+   "sentence": "二次型的矩阵是实对称矩阵，正交变换法可以把它化为标准形。"
+  },
+  {
+   "head": "正交变换法",
+   "relation": "acts_on",
+   "tail": "实对称矩阵",
+   "source": "extracted",
+   "score": 0.991,
+   "sentence": "二次型的矩阵是实对称矩阵，正交变换法可以把它化为标准形。"
+  },
+  {
+   "head": "矩阵指数",
+   "relation": "depends_on",
+   "tail": "矩阵",
+   "source": "extracted",
+   "score": 1.0,
+   "sentence": "矩阵指数的定义依赖于矩阵的幂。"
+  },
+  {
+   "head": "欧几里得空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "内积空间"
+  },
+  {
+   "head": "行最简形矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "行阶梯形矩阵"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "行空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "子空间"
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "埃尔米特矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "奇异矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "is_a",
+   "tail": "实对称矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "过渡矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "过渡矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "下三角矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "三角矩阵"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "对称矩阵"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "has_property",
+   "tail": "对称性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "对称矩阵"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "is_a",
+   "tail": "三角矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "下三角矩阵"
+  },
+  {
+   "head": "零空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "子空间"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "is_a",
+   "tail": "半正定矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "正定矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "is_a",
+   "tail": "可逆矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "正定矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "has_property",
+   "tail": "正定性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "正定矩阵"
+  },
+  {
+   "head": "像空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "子空间"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "is_a",
+   "tail": "正规矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "酉矩阵"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "is_a",
+   "tail": "酉矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "is_a",
+   "tail": "可逆矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "has_property",
+   "tail": "保持内积",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "has_property",
+   "tail": "正交性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "生成子空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "子空间"
+  },
+  {
+   "head": "上三角矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "三角矩阵"
+  },
+  {
+   "head": "核空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "子空间"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "酉矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "可逆矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "has_property",
+   "tail": "保持内积",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "has_property",
+   "tail": "正交性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "对称矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "对角矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "下三角矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "对角矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "上三角矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "对角矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "has_property",
+   "tail": "可对角化",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "对角矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "幂等矩阵"
+  },
+  {
+   "head": "顺序主子式",
+   "relation": "is_a",
+   "tail": "子式",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "主子式"
+  },
+  {
+   "head": "三角矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "若尔当块",
+   "relation": "is_a",
+   "tail": "三角矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "上三角矩阵"
+  },
+  {
+   "head": "循环矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "伴随矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "正交投影",
+   "relation": "is_a",
+   "tail": "线性映射",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "线性变换"
+  },
+  {
+   "head": "半正定矩阵",
+   "relation": "is_a",
+   "tail": "对称矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "实对称矩阵"
+  },
+  {
+   "head": "半正定矩阵",
+   "relation": "is_a",
+   "tail": "埃尔米特矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "实对称矩阵"
+  },
+  {
+   "head": "半正定矩阵",
+   "relation": "has_property",
+   "tail": "可对角化",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "实对称矩阵"
+  },
+  {
+   "head": "半正定矩阵",
+   "relation": "has_property",
+   "tail": "特征值全为实数",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "实对称矩阵"
+  },
+  {
+   "head": "可逆矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "若尔当标准形",
+   "relation": "is_a",
+   "tail": "三角矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "上三角矩阵"
+  },
+  {
+   "head": "正交补",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "子空间"
+  },
+  {
+   "head": "希尔伯特空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "内积空间"
+  },
+  {
+   "head": "线性变换",
+   "relation": "has_property",
+   "tail": "线性性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "线性映射"
+  },
+  {
+   "head": "格拉姆矩阵",
+   "relation": "is_a",
+   "tail": "实对称矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "标准正交基",
+   "relation": "is_a",
+   "tail": "基底",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "正交基"
+  },
+  {
+   "head": "标准正交基",
+   "relation": "has_property",
+   "tail": "正交性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "正交基"
+  },
+  {
+   "head": "幂等矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "特征子空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "子空间"
+  },
+  {
+   "head": "列空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "子空间"
+  },
+  {
+   "head": "初等矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "初等矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "反对称矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "实对称矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "对称矩阵"
+  },
+  {
+   "head": "实对称矩阵",
+   "relation": "has_property",
+   "tail": "对称性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "对称矩阵"
+  },
+  {
+   "head": "幂零矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "对称矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "范德蒙德行列式",
+   "relation": "has_property",
+   "tail": "多重线性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "行列式"
+  },
+  {
+   "head": "范德蒙德行列式",
+   "relation": "has_property",
+   "tail": "交错性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "行列式"
+  },
+  {
+   "head": "酉空间",
+   "relation": "is_a",
+   "tail": "向量空间",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "内积空间"
+  },
+  {
+   "head": "保持长度",
+   "relation": "equivalent_to",
+   "tail": "保持内积",
+   "source": "inferred",
+   "rule": "R3",
+   "via": null
+  },
+  {
+   "head": "特征值全为正",
+   "relation": "equivalent_to",
+   "tail": "正定性",
+   "source": "inferred",
+   "rule": "R3",
+   "via": null
+  },
+  {
+   "head": "满秩",
+   "relation": "equivalent_to",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R3",
+   "via": null
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "has_property",
+   "tail": "保持长度",
+   "source": "inferred",
+   "rule": "R4",
+   "via": "保持内积"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "has_property",
+   "tail": "特征值全为正",
+   "source": "inferred",
+   "rule": "R4",
+   "via": "正定性"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "has_property",
+   "tail": "保持长度",
+   "source": "inferred",
+   "rule": "R4",
+   "via": "保持内积"
+  },
+  {
+   "head": "可逆矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R4",
+   "via": "可逆性"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "正规矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "酉矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "酉矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "has_property",
+   "tail": "保持长度",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "酉矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "对称矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "has_property",
+   "tail": "对称性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "对称矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "单位矩阵",
+   "relation": "is_a",
+   "tail": "三角矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "下三角矩阵"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "逆矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "初等矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "初等矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "半正定矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "对称矩阵"
+  },
+  {
+   "head": "半正定矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "对称矩阵"
+  },
+  {
+   "head": "半正定矩阵",
+   "relation": "has_property",
+   "tail": "对称性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "对称矩阵"
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "酉矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "过渡矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "过渡矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "is_a",
+   "tail": "对称矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "is_a",
+   "tail": "埃尔米特矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "has_property",
+   "tail": "可对角化",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "has_property",
+   "tail": "特征值全为实数",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "has_property",
+   "tail": "对称性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "实对称矩阵"
+  },
+  {
+   "head": "正定矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "is_a",
+   "tail": "正规矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "has_property",
+   "tail": "保持长度",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "正交矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "吉文斯旋转矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "正交矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "下三角矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "对角矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "三角矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "is_a",
+   "tail": "对称矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "is_a",
+   "tail": "实对称矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "is_a",
+   "tail": "埃尔米特矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "has_property",
+   "tail": "可对角化",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "has_property",
+   "tail": "特征值全为实数",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "has_property",
+   "tail": "可逆性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "has_property",
+   "tail": "满秩",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "可逆矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "has_property",
+   "tail": "特征值全为正",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "正定矩阵"
+  },
+  {
+   "head": "上三角矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "若尔当块",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "三角矩阵"
+  },
+  {
+   "head": "若尔当块",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "三角矩阵"
+  },
+  {
+   "head": "格拉姆矩阵",
+   "relation": "is_a",
+   "tail": "对称矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "格拉姆矩阵",
+   "relation": "is_a",
+   "tail": "埃尔米特矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "格拉姆矩阵",
+   "relation": "has_property",
+   "tail": "可对角化",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "格拉姆矩阵",
+   "relation": "has_property",
+   "tail": "特征值全为实数",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "半正定矩阵"
+  },
+  {
+   "head": "格拉姆矩阵",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "实对称矩阵"
+  },
+  {
+   "head": "格拉姆矩阵",
+   "relation": "has_property",
+   "tail": "对称性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "实对称矩阵"
+  },
+  {
+   "head": "正交投影",
+   "relation": "has_property",
+   "tail": "线性性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "线性映射"
+  },
+  {
+   "head": "若尔当标准形",
+   "relation": "is_a",
+   "tail": "方阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "三角矩阵"
+  },
+  {
+   "head": "若尔当标准形",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "三角矩阵"
+  },
+  {
+   "head": "实对称矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "方阵"
+  },
+  {
+   "head": "格拉姆矩阵",
+   "relation": "is_a",
+   "tail": "矩阵",
+   "source": "inferred",
+   "rule": "R1",
+   "via": "实对称矩阵"
+  },
+  {
+   "head": "希尔伯特矩阵",
+   "relation": "has_property",
+   "tail": "对称性",
+   "source": "inferred",
+   "rule": "R2",
+   "via": "实对称矩阵"
+  }
+ ]
+}

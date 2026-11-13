@@ -1,0 +1,10 @@
+.venv/
+.tools/
+.neo4j.env
+outputs/bert_cache.pt
+outputs/*/model.pt
+__pycache__/
+__pycache__/
+*.pyc
+.DS_Store
+outputs/run_all.log

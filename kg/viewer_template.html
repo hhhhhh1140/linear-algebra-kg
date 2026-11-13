@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>线性代数知识图谱</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/standalone/umd/vis-network.min.js"></script>
+<style>
+  :root {
+    --bg: #f7f7f5; --panel: #ffffff; --text: #1d1d1b; --muted: #6b6b66; --border: #e3e2dd;
+    --accent: #2f5fa7;
+    --CON: #4c78c8; --THM: #c8553d; --PROP: #3a9a6b; --OP: #b07d1a; --METH: #8a5cc2;
+    --seed: #9a9a94; --extracted: #e07b00; --inferred: #2f8f8a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161615; --panel: #1f1f1d; --text: #ecebe6; --muted: #a2a19b; --border: #34332f;
+      --accent: #8fb3ef; --seed: #77766f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #161615; --panel: #1f1f1d; --text: #ecebe6; --muted: #a2a19b; --border: #34332f;
+    --accent: #8fb3ef; --seed: #77766f;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif; }
+  .app { display: grid; grid-template-columns: 300px 1fr; height: 100vh; }
+  aside { background: var(--panel); border-right: 1px solid var(--border); padding: 16px; overflow-y: auto; }
+  h1 { font-size: 17px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 12px; margin-bottom: 14px; }
+  input[type=search] { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px;
+    background: var(--bg); color: var(--text); font-size: 14px; }
+  h2 { font-size: 13px; color: var(--muted); margin: 16px 0 6px; font-weight: 600; }
+  label { display: flex; align-items: center; gap: 6px; font-size: 13px; padding: 2px 0; cursor: pointer; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .line { width: 18px; height: 0; border-top: 2px solid; display: inline-block; }
+  .stats { font-size: 12px; color: var(--muted); }
+  #detail { font-size: 13px; line-height: 1.6; }
+  #detail .name { font-size: 16px; font-weight: 600; }
+  #detail ul { padding-left: 16px; margin: 4px 0; }
+  #detail .tag { font-size: 11px; padding: 0 5px; border-radius: 4px; border: 1px solid var(--border); color: var(--muted); }
+  #net { width: 100%; height: 100vh; }
+  @media (max-width: 760px) {
+    .app { grid-template-columns: 1fr; grid-template-rows: auto 70vh; height: auto; }
+    aside { border-right: 0; border-bottom: 1px solid var(--border); padding: 12px 16px; }
+    #net { height: 70vh; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <h1>线性代数知识图谱</h1>
+    <div class="sub" id="stats"></div>
+    <input type="search" id="q" placeholder="搜索实体，如：特征值" list="names">
+    <datalist id="names"></datalist>
+    <h2>实体类型</h2><div id="types"></div>
+    <h2>三元组来源</h2><div id="sources"></div>
+    <h2>关系</h2><div id="rels"></div>
+    <h2>详情</h2>
+    <div id="detail" class="stats">点击节点查看它的三元组</div>
+  </aside>
+  <div id="net"></div>
+</div>
+<script>
+const DATA = /*__DATA__*/null;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const SRC_ZH = { seed: "人工种子", extracted: "模型抽取", inferred: "规则推理" };
+const state = { types: new Set(Object.keys(DATA.types)), sources: new Set(Object.keys(SRC_ZH)),
+                rels: new Set(Object.keys(DATA.relations)) };
+
+function checkbox(container, key, label, swatch, set) {
+  const el = document.createElement("label");
+  el.innerHTML = `<input type="checkbox" checked> ${swatch} ${label}`;
+  el.querySelector("input").onchange = e => { e.target.checked ? set.add(key) : set.delete(key); refresh(); };
+  container.appendChild(el);
+}
+for (const [k, v] of Object.entries(DATA.types))
+  checkbox(document.getElementById("types"), k, `${v}（${k}）`, `<span class="dot" style="background:${css("--" + k)}"></span>`, state.types);
+for (const [k, v] of Object.entries(SRC_ZH))
+  checkbox(document.getElementById("sources"), k, v, `<span class="line" style="border-color:${css("--" + k)};${k === "inferred" ? "border-top-style:dashed" : ""}"></span>`, state.sources);
+for (const [k, v] of Object.entries(DATA.relations))
+  checkbox(document.getElementById("rels"), k, `${v} <span class="stats">${k}</span>`, "", state.rels);
+
+const counts = DATA.edges.reduce((m, e) => (m[e.source] = (m[e.source] || 0) + 1, m), {});
+document.getElementById("stats").textContent =
+  `${DATA.nodes.length} 个实体 · ${DATA.edges.length} 条三元组（种子 ${counts.seed || 0} / 抽取 ${counts.extracted || 0} / 推理 ${counts.inferred || 0}）`;
+document.getElementById("names").innerHTML = DATA.nodes.map(n => `<option value="${n.name}">`).join("");
+
+const nodes = new vis.DataSet(), edges = new vis.DataSet();
+const net = new vis.Network(document.getElementById("net"), { nodes, edges }, {
+  physics: { solver: "forceAtlas2Based", forceAtlas2Based: { gravitationalConstant: -60, springLength: 90 },
+             stabilization: { iterations: 250 } },
+  nodes: { shape: "dot", size: 12, font: { size: 13, color: css("--text") }, borderWidth: 1 },
+  edges: { arrows: { to: { enabled: true, scaleFactor: 0.5 } }, font: { size: 10, color: css("--muted"), strokeWidth: 0, align: "middle" },
+           smooth: { type: "continuous" }, width: 1.2 },
+  interaction: { hover: true, tooltipDelay: 120 },
+});
+
+function refresh() {
+  const visibleNodes = DATA.nodes.filter(n => state.types.has(n.type));
+  const ok = new Set(visibleNodes.map(n => n.name));
+  const visibleEdges = DATA.edges.filter(e => state.sources.has(e.source) && state.rels.has(e.relation) && ok.has(e.head) && ok.has(e.tail));
+  const deg = {};
+  visibleEdges.forEach(e => { deg[e.head] = (deg[e.head] || 0) + 1; deg[e.tail] = (deg[e.tail] || 0) + 1; });
+  nodes.clear(); edges.clear();
+  nodes.add(visibleNodes.map(n => ({ id: n.name, label: n.name, size: 8 + Math.min(deg[n.name] || 0, 20),
+    color: { background: css("--" + n.type), border: n.source === "extracted" ? css("--extracted") : css("--" + n.type) },
+    borderWidth: n.source === "extracted" ? 3 : 1,
+    title: `${n.name}｜${DATA.types[n.type]}${n.source === "extracted" ? "｜模型新发现" : ""}` })));
+  edges.add(visibleEdges.map((e, i) => ({ id: i, from: e.head, to: e.tail,
+    color: { color: css("--" + e.source), opacity: 0.85 }, dashes: e.source === "inferred",
+    title: `${e.head} —${DATA.relations[e.relation]}→ ${e.tail}\n来源：${SRC_ZH[e.source]}` +
+           (e.score ? `\n置信度：${e.score}` : "") + (e.rule ? `\n规则：${e.rule}${e.via ? "（经由 " + e.via + "）" : ""}` : "") })));
+}
+refresh();
+net.once("stabilizationIterationsDone", () => net.fit());
+
+function showDetail(name) {
+  const n = DATA.nodes.find(x => x.name === name);
+  if (!n) return;
+  const row = e => `<li>${e.head === name ? "" : e.head + " "}<b>${DATA.relations[e.relation]}</b> ${e.tail === name ? "" : e.tail}
+    <span class="tag">${SRC_ZH[e.source]}${e.score ? " " + e.score : ""}${e.rule ? " " + e.rule : ""}</span></li>`;
+  const out = DATA.edges.filter(e => e.head === name), inc = DATA.edges.filter(e => e.tail === name);
+  document.getElementById("detail").innerHTML =
+    `<div class="name">${name}</div><div class="stats">${DATA.types[n.type]}${n.source === "extracted" ? " · 模型新发现" : ""}</div>` +
+    `<h2>出边（${out.length}）</h2><ul>${out.map(row).join("")}</ul><h2>入边（${inc.length}）</h2><ul>${inc.map(row).join("")}</ul>`;
+}
+net.on("click", p => { if (p.nodes.length) showDetail(p.nodes[0]); });
+document.getElementById("q").addEventListener("change", e => {
+  const v = e.target.value.trim();
+  if (nodes.get(v)) { net.selectNodes([v]); net.focus(v, { scale: 1.4, animation: true }); showDetail(v); }
+});
+</script>
+</body>
+</html>

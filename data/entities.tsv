@@ -1,0 +1,161 @@
+# 名称	类型	别名(逗号分隔)
+# 类型: CON=概念  THM=定理  PROP=性质  OP=运算  METH=方法
+向量	CON
+零向量	CON
+行向量	CON
+列向量	CON
+单位向量	CON
+向量组	CON
+正交向量组	CON
+线性组合	CON
+极大线性无关组	CON	极大无关组
+向量组的秩	CON
+矩阵	CON
+方阵	CON
+零矩阵	CON
+单位矩阵	CON
+对角矩阵	CON
+三角矩阵	CON
+上三角矩阵	CON
+下三角矩阵	CON
+对称矩阵	CON
+实对称矩阵	CON
+反对称矩阵	CON
+正交矩阵	CON
+可逆矩阵	CON	非奇异矩阵
+奇异矩阵	CON
+逆矩阵	CON
+伴随矩阵	CON
+初等矩阵	CON
+分块矩阵	CON
+系数矩阵	CON
+增广矩阵	CON
+行阶梯形矩阵	CON	阶梯形矩阵
+行最简形矩阵	CON
+正定矩阵	CON
+半正定矩阵	CON
+幂零矩阵	CON
+幂等矩阵	CON
+埃尔米特矩阵	CON	厄米矩阵
+酉矩阵	CON
+相似矩阵	CON
+过渡矩阵	CON
+若尔当标准形	CON	约当标准形
+若尔当块	CON	约当块
+行列式	CON
+子式	CON
+余子式	CON
+代数余子式	CON
+主子式	CON
+顺序主子式	CON
+秩	CON	
+迹	CON
+特征值	CON
+特征向量	CON
+特征多项式	CON
+特征方程	CON
+特征子空间	CON
+最小多项式	CON
+代数重数	CON
+几何重数	CON
+线性方程组	CON
+齐次线性方程组	CON
+非齐次线性方程组	CON
+基础解系	CON
+通解	CON
+特解	CON
+向量空间	CON	线性空间
+子空间	CON
+零空间	CON
+列空间	CON
+行空间	CON
+生成子空间	CON	张成空间
+直和	CON
+基底	CON
+维数	CON
+坐标	CON
+线性变换	CON
+线性映射	CON
+核空间	CON
+像空间	CON	值域
+零化度	CON
+内积	CON
+内积空间	CON
+欧几里得空间	CON	欧氏空间
+酉空间	CON
+范数	CON
+正交基	CON
+标准正交基	CON	规范正交基
+正交补	CON
+正交投影	CON
+二次型	CON
+标准形	CON
+规范形	CON
+惯性指数	CON
+正惯性指数	CON
+负惯性指数	CON
+正定二次型	CON
+奇异值	CON
+线性相关	PROP
+线性无关	PROP
+可逆性	PROP
+满秩	PROP
+可对角化	PROP
+正定性	PROP
+对称性	PROP
+结合律	PROP
+分配律	PROP
+交换律	PROP
+非交换性	PROP	不满足交换律
+线性性	PROP
+多重线性	PROP
+交错性	PROP
+正交性	PROP
+特征值全为实数	PROP
+特征值全为正	PROP
+保持内积	PROP
+保持长度	PROP
+矩阵加法	OP
+数乘	OP
+矩阵乘法	OP
+转置	OP
+共轭转置	OP
+求逆	OP
+初等变换	OP
+初等行变换	OP
+向量加法	OP
+向量积	OP	叉积
+矩阵的幂	OP
+高斯消元法	METH
+高斯-约当消元法	METH
+拉普拉斯展开	METH	按行展开
+对角线法则	METH
+施密特正交化	METH	格拉姆-施密特正交化
+相似对角化	METH
+正交对角化	METH
+配方法	METH
+正交变换法	METH
+初等变换法	METH
+伴随矩阵法	METH
+LU分解	METH
+QR分解	METH
+奇异值分解	METH	SVD
+特征分解	METH	谱分解
+楚列斯基分解	METH	Cholesky分解
+最小二乘法	METH
+幂法	METH
+凯莱-哈密顿定理	THM	哈密顿-凯莱定理
+秩-零化度定理	THM	秩零化度定理
+谱定理	THM
+惯性定理	THM	西尔维斯特惯性定理
+柯西-施瓦茨不等式	THM
+三角不等式	THM
+克拉默法则	THM	克莱姆法则
+行列式乘法定理	THM
+可逆矩阵定理	THM
+西尔维斯特判据	THM
+若尔当标准形定理	THM
+线性方程组解的判定定理	THM
+维数公式	THM
+舒尔定理	THM
+基扩充定理	THM

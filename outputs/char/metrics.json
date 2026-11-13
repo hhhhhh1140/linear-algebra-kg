@@ -1,0 +1,164 @@
+{
+  "encoder": "char",
+  "ner_dev_f1": 0.997,
+  "ner_test": {
+    "overall": {
+      "precision": 0.7749,
+      "recall": 0.8314,
+      "f1": 0.8021,
+      "support": 1453
+    },
+    "per_type": {
+      "CON": {
+        "precision": 0.8097,
+        "recall": 0.8523,
+        "f1": 0.8305,
+        "support": 1043
+      },
+      "METH": {
+        "precision": 0.6994,
+        "recall": 0.8832,
+        "f1": 0.7806,
+        "support": 137
+      },
+      "OP": {
+        "precision": 0.7414,
+        "recall": 0.6143,
+        "f1": 0.6719,
+        "support": 70
+      },
+      "PROP": {
+        "precision": 0.3966,
+        "recall": 0.6389,
+        "f1": 0.4894,
+        "support": 72
+      },
+      "THM": {
+        "precision": 0.9561,
+        "recall": 0.8321,
+        "f1": 0.8898,
+        "support": 131
+      }
+    },
+    "unseen_entity_recall": 0.5365,
+    "unseen_entity_mentions": 233
+  },
+  "ner_test_natural": {
+    "precision": 0.6917,
+    "recall": 0.7793,
+    "f1": 0.7329,
+    "support": 213
+  },
+  "re_dev_f1": 0.9758,
+  "re_test_gold_entities": {
+    "micro": {
+      "precision": 0.9015,
+      "recall": 0.7997,
+      "f1": 0.8476,
+      "support": 664
+    },
+    "per_relation": {
+      "acts_on": {
+        "precision": 0.8333,
+        "recall": 0.8824,
+        "f1": 0.8571,
+        "support": 68
+      },
+      "depends_on": {
+        "precision": 0.8144,
+        "recall": 0.4969,
+        "f1": 0.6172,
+        "support": 159
+      },
+      "equivalent_to": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "has_property": {
+        "precision": 0.9545,
+        "recall": 1.0,
+        "f1": 0.9767,
+        "support": 42
+      },
+      "involves": {
+        "precision": 0.9737,
+        "recall": 0.9098,
+        "f1": 0.9407,
+        "support": 122
+      },
+      "is_a": {
+        "precision": 0.9112,
+        "recall": 0.8902,
+        "f1": 0.9006,
+        "support": 173
+      },
+      "part_of": {
+        "precision": 1.0,
+        "recall": 0.7451,
+        "f1": 0.8539,
+        "support": 51
+      },
+      "solved_by": {
+        "precision": 0.8511,
+        "recall": 0.9756,
+        "f1": 0.9091,
+        "support": 41
+      },
+      "yields": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8,
+        "support": 5
+      }
+    },
+    "confusion": [
+      [
+        "depends_on->NA",
+        78
+      ],
+      [
+        "is_a->NA",
+        18
+      ],
+      [
+        "NA->depends_on",
+        17
+      ],
+      [
+        "NA->is_a",
+        15
+      ],
+      [
+        "part_of->NA",
+        13
+      ],
+      [
+        "involves->NA",
+        11
+      ],
+      [
+        "NA->acts_on",
+        10
+      ],
+      [
+        "acts_on->NA",
+        8
+      ]
+    ]
+  },
+  "re_test_natural": {
+    "precision": 0.5189,
+    "recall": 0.4331,
+    "f1": 0.4721,
+    "support": 127
+  },
+  "end2end_test": {
+    "precision": 0.6388,
+    "recall": 0.6142,
+    "f1": 0.6263,
+    "support": 648
+  },
+  "held_out_triples_recovered": "44/53"
+}
