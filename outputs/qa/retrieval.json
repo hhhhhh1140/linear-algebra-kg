@@ -1,0 +1,10121 @@
+{
+ "1": {
+  "entities": [
+   "逆矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "逆矩阵",
+    "relation": "solved_by",
+    "tail": "伴随矩阵法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8286
+   },
+   {
+    "head": "求逆",
+    "relation": "yields",
+    "tail": "逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8066
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "solved_by",
+    "tail": "初等变换法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.793
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7855
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7841
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7762
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7569
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "depends_on",
+    "tail": "矩阵乘法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7446
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "depends_on",
+    "tail": "单位矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7322
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "solved_by",
+    "tail": "高斯-约当消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7311
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6993
+   }
+  ],
+  "passages": [
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "把可逆矩阵与单位矩阵并排，做初等行变换直到左边变为单位矩阵，右边就是逆矩阵。",
+   "伪逆矩阵可以通过奇异值分解求得。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。"
+  ]
+ },
+ "2": {
+  "entities": [
+   "施密特正交化"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "施密特正交化",
+    "relation": "yields",
+    "tail": "标准正交基",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8809
+   },
+   {
+    "head": "施密特正交化",
+    "relation": "acts_on",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7975
+   }
+  ],
+  "passages": [
+   "施密特正交化可以把一组线性无关的向量组化为标准正交基。",
+   "实对称矩阵总可以进行正交对角化。",
+   "正交矩阵的列向量构成一组标准正交基。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。"
+  ]
+ },
+ "3": {
+  "entities": [
+   "楚列斯基分解",
+   "矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "楚列斯基分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.9109
+   },
+   {
+    "head": "楚列斯基分解",
+    "relation": "acts_on",
+    "tail": "正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8908
+   },
+   {
+    "head": "下三角矩阵",
+    "relation": "part_of",
+    "tail": "楚列斯基分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8249
+   },
+   {
+    "head": "QR分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7069
+   },
+   {
+    "head": "LU分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7069
+   },
+   {
+    "head": "奇异值分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6282
+   }
+  ],
+  "passages": [
+   "楚列斯基分解适用于正定矩阵，它把矩阵分解为下三角矩阵与其转置的乘积。",
+   "可逆矩阵定理把可逆矩阵、行列式、秩和齐次线性方程组的解联系在一起。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。",
+   "齐次线性方程组解空间的一组基底称为基础解系。",
+   "奇异值分解适用于任意矩阵，它把矩阵写成酉矩阵、对角矩阵和酉矩阵的乘积。"
+  ]
+ },
+ "4": {
+  "entities": [
+   "西尔维斯特判据"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "西尔维斯特判据",
+    "relation": "involves",
+    "tail": "顺序主子式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8098
+   },
+   {
+    "head": "西尔维斯特判据",
+    "relation": "involves",
+    "tail": "实对称矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7973
+   },
+   {
+    "head": "西尔维斯特判据",
+    "relation": "involves",
+    "tail": "正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7909
+   },
+   {
+    "head": "正定性",
+    "relation": "solved_by",
+    "tail": "西尔维斯特判据",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7867
+   }
+  ],
+  "passages": [
+   "西尔维斯特判据指出实对称矩阵正定的充要条件是各阶顺序主子式都大于零。",
+   "特征子空间的维数称为几何重数，它不超过代数重数。",
+   "秩-零化度定理指出，线性映射的秩与零化度之和等于定义域的维数。",
+   "特征多项式是由行列式定义的，令它等于零就得到特征方程。",
+   "求特征值的基本方法是解特征方程。"
+  ]
+ },
+ "5": {
+  "entities": [
+   "凯莱-哈密顿定理"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "凯莱-哈密顿定理",
+    "relation": "involves",
+    "tail": "特征多项式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8575
+   },
+   {
+    "head": "凯莱-哈密顿定理",
+    "relation": "involves",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8194
+   },
+   {
+    "head": "凯莱-哈密顿定理",
+    "relation": "involves",
+    "tail": "最小多项式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7808
+   }
+  ],
+  "passages": [
+   "凯莱-哈密顿定理指出，任何方阵都是其特征多项式的根。",
+   "由凯莱-哈密顿定理可知，最小多项式整除特征多项式。",
+   "行列式乘法定理指出两个方阵乘积的行列式等于它们行列式的乘积。",
+   "正定矩阵的特征值全为正。",
+   "基扩充定理说明任何线性无关的向量组都可以扩充为整个空间的基底。"
+  ]
+ },
+ "6": {
+  "entities": [
+   "惯性定理"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "惯性定理",
+    "relation": "involves",
+    "tail": "规范形",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7868
+   },
+   {
+    "head": "惯性定理",
+    "relation": "involves",
+    "tail": "惯性指数",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7723
+   },
+   {
+    "head": "惯性定理",
+    "relation": "involves",
+    "tail": "二次型",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.76
+   }
+  ],
+  "passages": [
+   "惯性定理表明二次型的规范形是唯一的，正惯性指数和负惯性指数都不随变换改变。",
+   "若尔当标准形定理保证了若尔当标准形在相似意义下的唯一性。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "正定矩阵的特征值全为正。",
+   "基扩充定理说明任何线性无关的向量组都可以扩充为整个空间的基底。"
+  ]
+ },
+ "7": {
+  "entities": [
+   "高斯消元法",
+   "矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "高斯消元法",
+    "relation": "yields",
+    "tail": "行阶梯形矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8324
+   },
+   {
+    "head": "高斯消元法",
+    "relation": "acts_on",
+    "tail": "增广矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8206
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7574
+   },
+   {
+    "head": "线性方程组",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7394
+   },
+   {
+    "head": "高斯-约当消元法",
+    "relation": "is_a",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7361
+   },
+   {
+    "head": "矩阵加法",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6111
+   },
+   {
+    "head": "分块矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.594
+   },
+   {
+    "head": "行最简形矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.594
+   }
+  ],
+  "passages": [
+   "高斯-约当消元法会把增广矩阵化为行最简形矩阵。",
+   "用高斯消元法把行列式化为上三角形式，其值等于主对角线元素的乘积。",
+   "高斯消元法是求解线性方程组最基本的方法。",
+   "分块矩阵把大矩阵划分成若干子块，便于进行矩阵乘法。",
+   "伴随矩阵由各元素的代数余子式转置排列而成。"
+  ]
+ },
+ "8": {
+  "entities": [
+   "高斯-约当消元法",
+   "增广矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "高斯-约当消元法",
+    "relation": "is_a",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7404
+   },
+   {
+    "head": "高斯消元法",
+    "relation": "acts_on",
+    "tail": "增广矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.8316
+   },
+   {
+    "head": "高斯-约当消元法",
+    "relation": "yields",
+    "tail": "行最简形矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7757
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "solved_by",
+    "tail": "高斯-约当消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7444
+   },
+   {
+    "head": "增广矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6762
+   },
+   {
+    "head": "系数矩阵",
+    "relation": "part_of",
+    "tail": "增广矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6575
+   },
+   {
+    "head": "增广矩阵",
+    "relation": "depends_on",
+    "tail": "线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6501
+   },
+   {
+    "head": "线性方程组解的判定定理",
+    "relation": "involves",
+    "tail": "增广矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6141
+   }
+  ],
+  "passages": [
+   "高斯-约当消元法会把增广矩阵化为行最简形矩阵。",
+   "线性方程组的系数矩阵加上常数列就得到增广矩阵。",
+   "用高斯消元法把行列式化为上三角形式，其值等于主对角线元素的乘积。",
+   "高斯消元法是求解线性方程组最基本的方法。",
+   "线性方程组解的判定定理指出，方程组有解当且仅当系数矩阵的秩等于增广矩阵的秩。"
+  ]
+ },
+ "9": {
+  "entities": [
+   "二次型",
+   "标准形"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "标准形",
+    "relation": "depends_on",
+    "tail": "二次型",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7479
+   },
+   {
+    "head": "标准形",
+    "relation": "solved_by",
+    "tail": "配方法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6855
+   },
+   {
+    "head": "配方法",
+    "relation": "acts_on",
+    "tail": "二次型",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6836
+   },
+   {
+    "head": "标准形",
+    "relation": "solved_by",
+    "tail": "正交变换法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6663
+   },
+   {
+    "head": "正定二次型",
+    "relation": "is_a",
+    "tail": "二次型",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6587
+   },
+   {
+    "head": "惯性定理",
+    "relation": "involves",
+    "tail": "二次型",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6505
+   },
+   {
+    "head": "正交变换法",
+    "relation": "acts_on",
+    "tail": "二次型",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6294
+   },
+   {
+    "head": "二次型",
+    "relation": "depends_on",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5937
+   },
+   {
+    "head": "规范形",
+    "relation": "is_a",
+    "tail": "标准形",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5898
+   }
+  ],
+  "passages": [
+   "用配方法或正交变换法都可以把二次型化为标准形。",
+   "二次型的矩阵是实对称矩阵，正交变换法可以把它化为标准形。",
+   "二次型可以用一个实对称矩阵来表示。",
+   "对任意非零向量都取正值的二次型称为正定二次型。",
+   "二阶和三阶行列式可以用对角线法则直接计算。"
+  ]
+ },
+ "10": {
+  "entities": [
+   "伴随矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "伴随矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.831
+   },
+   {
+    "head": "伴随矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8092
+   },
+   {
+    "head": "伴随矩阵",
+    "relation": "depends_on",
+    "tail": "代数余子式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7239
+   }
+  ],
+  "passages": [
+   "伴随矩阵由各元素的代数余子式转置排列而成。",
+   "矩阵的列空间是由列向量张成的生成子空间。",
+   "矩阵的行空间与列空间的维数相同，都等于矩阵的秩。",
+   "循环矩阵属于方阵的范畴。",
+   "分块矩阵把大矩阵划分成若干子块，便于进行矩阵乘法。"
+  ]
+ },
+ "11": {
+  "entities": [
+   "QR分解",
+   "矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "QR分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7897
+   },
+   {
+    "head": "LU分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7897
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "part_of",
+    "tail": "QR分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7666
+   },
+   {
+    "head": "上三角矩阵",
+    "relation": "part_of",
+    "tail": "QR分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7471
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7023
+   },
+   {
+    "head": "矩阵乘法",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6821
+   },
+   {
+    "head": "最小二乘法",
+    "relation": "solved_by",
+    "tail": "QR分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6679
+   }
+  ],
+  "passages": [
+   "QR分解把一个矩阵写成正交矩阵与上三角矩阵的乘积。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。",
+   "特征分解把可对角化的方阵写成由特征向量和特征值组成的矩阵乘积。",
+   "楚列斯基分解适用于正定矩阵，它把矩阵分解为下三角矩阵与其转置的乘积。",
+   "分块矩阵把大矩阵划分成若干子块，便于进行矩阵乘法。"
+  ]
+ },
+ "12": {
+  "entities": [
+   "LU分解",
+   "方阵",
+   "矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "LU分解",
+    "relation": "acts_on",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7861
+   },
+   {
+    "head": "LU分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7746
+   },
+   {
+    "head": "QR分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7746
+   },
+   {
+    "head": "下三角矩阵",
+    "relation": "part_of",
+    "tail": "LU分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7515
+   },
+   {
+    "head": "上三角矩阵",
+    "relation": "part_of",
+    "tail": "LU分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7417
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7127
+   },
+   {
+    "head": "矩阵的幂",
+    "relation": "acts_on",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7001
+   },
+   {
+    "head": "线性方程组",
+    "relation": "solved_by",
+    "tail": "LU分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.659
+   }
+  ],
+  "passages": [
+   "QR分解把一个矩阵写成正交矩阵与上三角矩阵的乘积。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。",
+   "特征分解把可对角化的方阵写成由特征向量和特征值组成的矩阵乘积。",
+   "行列式乘法定理指出两个方阵乘积的行列式等于它们行列式的乘积。",
+   "楚列斯基分解适用于正定矩阵，它把矩阵分解为下三角矩阵与其转置的乘积。"
+  ]
+ },
+ "13": {
+  "entities": [
+   "柯西-施瓦茨不等式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "柯西-施瓦茨不等式",
+    "relation": "involves",
+    "tail": "范数",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8537
+   },
+   {
+    "head": "柯西-施瓦茨不等式",
+    "relation": "involves",
+    "tail": "内积",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8002
+   }
+  ],
+  "passages": [
+   "柯西-施瓦茨不等式说明两个向量内积的绝对值不超过它们范数的乘积。",
+   "克拉默法则用行列式给出了方程个数与未知数个数相等时非齐次线性方程组的解。",
+   "三角不等式是范数必须满足的基本性质。",
+   "特征多项式是由行列式定义的，令它等于零就得到特征方程。",
+   "二阶和三阶行列式可以用对角线法则直接计算。"
+  ]
+ },
+ "14": {
+  "entities": [
+   "矩阵",
+   "特征值"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6226
+   },
+   {
+    "head": "奇异值分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6147
+   },
+   {
+    "head": "转置",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6133
+   },
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "特征方程",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5953
+   },
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "幂法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5878
+   },
+   {
+    "head": "特征向量",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.539
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5176
+   },
+   {
+    "head": "特征值",
+    "relation": "part_of",
+    "tail": "特征分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5066
+   },
+   {
+    "head": "特征子空间",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5047
+   },
+   {
+    "head": "奇异值",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.4833
+   },
+   {
+    "head": "若尔当块",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.4553
+   }
+  ],
+  "passages": [
+   "对大型矩阵，幂法可以近似求出模最大的特征值。",
+   "正定矩阵的特征值全为正。",
+   "特征分解把可对角化的方阵写成由特征向量和特征值组成的矩阵乘积。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "求出特征值后，解对应的齐次线性方程组就能得到特征向量。"
+  ]
+ },
+ "15": {
+  "entities": [
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6448
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "对角线法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6331
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "拉普拉斯展开",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6304
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6044
+   },
+   {
+    "head": "子式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5608
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "多重线性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5601
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5579
+   },
+   {
+    "head": "对角线法则",
+    "relation": "acts_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5571
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5516
+   },
+   {
+    "head": "特征多项式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5389
+   },
+   {
+    "head": "拉普拉斯展开",
+    "relation": "acts_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5232
+   },
+   {
+    "head": "克拉默法则",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5166
+   }
+  ],
+  "passages": [
+   "二阶和三阶行列式可以用对角线法则直接计算。",
+   "用高斯消元法把行列式化为上三角形式，其值等于主对角线元素的乘积。",
+   "行阶梯形矩阵进一步化简可以得到行最简形矩阵。",
+   "行列式乘法定理指出两个方阵乘积的行列式等于它们行列式的乘积。",
+   "二次型可以用一个实对称矩阵来表示。"
+  ]
+ },
+ "16": {
+  "entities": [
+   "谱定理",
+   "矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8254
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "正交矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8107
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7374
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.717
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7035
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6751
+   }
+  ],
+  "passages": [
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "正定矩阵的特征值全为正。",
+   "希尔伯特矩阵是一种正定矩阵。",
+   "行数与列数相等的矩阵叫作方阵。",
+   "若一个矩阵等于它的转置，则称它为对称矩阵。"
+  ]
+ },
+ "17": {
+  "entities": [
+   "若尔当标准形"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "若尔当标准形",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7929
+   },
+   {
+    "head": "若尔当标准形",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7836
+   },
+   {
+    "head": "若尔当标准形",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7463
+   },
+   {
+    "head": "若尔当标准形",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7397
+   },
+   {
+    "head": "若尔当标准形定理",
+    "relation": "involves",
+    "tail": "若尔当标准形",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7369
+   },
+   {
+    "head": "若尔当块",
+    "relation": "part_of",
+    "tail": "若尔当标准形",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.731
+   }
+  ],
+  "passages": [
+   "若尔当标准形由若尔当块沿对角线排列而成。",
+   "并不是所有方阵都可对角化，但每个复方阵都相似于一个若尔当标准形。",
+   "用高斯消元法把行列式化为上三角形式，其值等于主对角线元素的乘积。",
+   "二阶和三阶行列式可以用对角线法则直接计算。",
+   "若尔当标准形定理保证了若尔当标准形在相似意义下的唯一性。"
+  ]
+ },
+ "18": {
+  "entities": [
+   "基础解系"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "基础解系",
+    "relation": "depends_on",
+    "tail": "齐次线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7873
+   },
+   {
+    "head": "基础解系",
+    "relation": "part_of",
+    "tail": "通解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7856
+   },
+   {
+    "head": "基础解系",
+    "relation": "depends_on",
+    "tail": "线性无关",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6395
+   }
+  ],
+  "passages": [
+   "齐次线性方程组解空间的一组基底称为基础解系。",
+   "齐次线性方程组的解集构成一个子空间，称为零空间。",
+   "非齐次线性方程组的通解等于它的一个特解加上对应齐次线性方程组的通解。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。",
+   "线性方程组解的判定定理指出，方程组有解当且仅当系数矩阵的秩等于增广矩阵的秩。"
+  ]
+ },
+ "19": {
+  "entities": [
+   "向量组的秩",
+   "向量"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "向量组的秩",
+    "relation": "depends_on",
+    "tail": "极大线性无关组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7608
+   },
+   {
+    "head": "列向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7309
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7228
+   },
+   {
+    "head": "单位向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7169
+   },
+   {
+    "head": "向量积",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6997
+   },
+   {
+    "head": "行向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6978
+   },
+   {
+    "head": "零向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6868
+   },
+   {
+    "head": "向量加法",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6755
+   },
+   {
+    "head": "线性组合",
+    "relation": "depends_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6266
+   },
+   {
+    "head": "线性相关",
+    "relation": "depends_on",
+    "tail": "向量",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.5891
+   },
+   {
+    "head": "豪斯霍尔德变换",
+    "relation": "involves",
+    "tail": "向量",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.4634
+   }
+  ],
+  "passages": [
+   "极大线性无关组所含向量的个数就是向量组的秩。",
+   "基底中向量的个数称为向量空间的维数。",
+   "长度为一的向量叫作单位向量，任何非零向量除以它的范数就得到单位向量。",
+   "单位向量与零向量是两类特殊的向量。",
+   "向量在给定基底下的表示系数称为坐标。"
+  ]
+ },
+ "20": {
+  "entities": [
+   "最小二乘法"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "最小二乘法",
+    "relation": "solved_by",
+    "tail": "QR分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8563
+   },
+   {
+    "head": "最小二乘法",
+    "relation": "depends_on",
+    "tail": "正交投影",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6966
+   }
+  ],
+  "passages": [
+   "在数值计算中，最小二乘法常常借助QR分解来实现。",
+   "最小二乘法本质上是把观测向量正交投影到列空间上。",
+   "数乘对向量加法满足分配律。",
+   "QR分解把一个矩阵写成正交矩阵与上三角矩阵的乘积。",
+   "奇异值分解适用于任意矩阵，它把矩阵写成酉矩阵、对角矩阵和酉矩阵的乘积。"
+  ]
+ },
+ "21": {
+  "entities": [
+   "条件数"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "条件数",
+    "relation": "depends_on",
+    "tail": "范数",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8664
+   },
+   {
+    "head": "条件数",
+    "relation": "depends_on",
+    "tail": "奇异值",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7963
+   }
+  ],
+  "passages": [
+   "条件数的定义依赖于范数。",
+   "条件数的定义依赖于奇异值。",
+   "矩阵指数的定义依赖于矩阵的幂。",
+   "特征多项式是由行列式定义的，令它等于零就得到特征方程。",
+   "满足加法和数乘封闭性的集合称为向量空间，也叫线性空间。"
+  ]
+ },
+ "22": {
+  "entities": [
+   "伪逆矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "伪逆矩阵",
+    "relation": "solved_by",
+    "tail": "奇异值分解",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8202
+   }
+  ],
+  "passages": [
+   "伪逆矩阵可以通过奇异值分解求得。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "把可逆矩阵与单位矩阵并排，做初等行变换直到左边变为单位矩阵，右边就是逆矩阵。",
+   "可逆矩阵定理把可逆矩阵、行列式、秩和齐次线性方程组的解联系在一起。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。"
+  ]
+ },
+ "23": {
+  "entities": [
+   "矩阵乘法",
+   "结合律"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "矩阵乘法",
+    "relation": "has_property",
+    "tail": "结合律",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.8521
+   },
+   {
+    "head": "矩阵加法",
+    "relation": "has_property",
+    "tail": "结合律",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7735
+   },
+   {
+    "head": "矩阵乘法",
+    "relation": "has_property",
+    "tail": "分配律",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7483
+   },
+   {
+    "head": "矩阵乘法",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7109
+   },
+   {
+    "head": "矩阵乘法",
+    "relation": "has_property",
+    "tail": "非交换性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6899
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "矩阵乘法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6805
+   },
+   {
+    "head": "向量加法",
+    "relation": "has_property",
+    "tail": "结合律",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6415
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "depends_on",
+    "tail": "矩阵乘法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6387
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "depends_on",
+    "tail": "矩阵乘法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6344
+   }
+  ],
+  "passages": [
+   "矩阵乘法满足结合律和分配律，但一般不满足交换律。",
+   "矩阵加法满足交换律与结合律。",
+   "数乘对向量加法满足分配律。",
+   "哈达玛积适用于矩阵，它满足交换律。",
+   "满足自身平方等于自身的方阵称为幂等矩阵，正交投影对应的矩阵就是幂等矩阵。"
+  ]
+ },
+ "24": {
+  "entities": [
+   "矩阵加法",
+   "交换律"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "矩阵加法",
+    "relation": "has_property",
+    "tail": "交换律",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.8589
+   },
+   {
+    "head": "矩阵加法",
+    "relation": "has_property",
+    "tail": "结合律",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7612
+   },
+   {
+    "head": "向量加法",
+    "relation": "has_property",
+    "tail": "交换律",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7173
+   },
+   {
+    "head": "矩阵加法",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7084
+   }
+  ],
+  "passages": [
+   "矩阵加法满足交换律与结合律。",
+   "矩阵乘法满足结合律和分配律，但一般不满足交换律。",
+   "哈达玛积适用于矩阵，它满足交换律。",
+   "数乘对向量加法满足分配律。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。"
+  ]
+ },
+ "25": {
+  "entities": [
+   "克拉默法则",
+   "线性方程组"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "线性方程组",
+    "relation": "solved_by",
+    "tail": "克拉默法则",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.9038
+   },
+   {
+    "head": "线性方程组",
+    "relation": "solved_by",
+    "tail": "LU分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7788
+   },
+   {
+    "head": "克拉默法则",
+    "relation": "involves",
+    "tail": "非齐次线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7537
+   },
+   {
+    "head": "线性方程组",
+    "relation": "solved_by",
+    "tail": "雅可比迭代法",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7459
+   },
+   {
+    "head": "线性方程组",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7426
+   },
+   {
+    "head": "克拉默法则",
+    "relation": "involves",
+    "tail": "系数矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6585
+   },
+   {
+    "head": "克拉默法则",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6465
+   },
+   {
+    "head": "齐次线性方程组",
+    "relation": "is_a",
+    "tail": "线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6138
+   },
+   {
+    "head": "增广矩阵",
+    "relation": "depends_on",
+    "tail": "线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5993
+   },
+   {
+    "head": "非齐次线性方程组",
+    "relation": "is_a",
+    "tail": "线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5964
+   },
+   {
+    "head": "系数矩阵",
+    "relation": "depends_on",
+    "tail": "线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5929
+   }
+  ],
+  "passages": [
+   "克拉默法则用行列式给出了方程个数与未知数个数相等时非齐次线性方程组的解。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。",
+   "雅可比迭代法是求解线性方程组的常用方法。",
+   "高斯消元法是求解线性方程组最基本的方法。",
+   "线性方程组解的判定定理指出，方程组有解当且仅当系数矩阵的秩等于增广矩阵的秩。"
+  ]
+ },
+ "26": {
+  "entities": [
+   "单位矩阵",
+   "对角矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.911
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8664
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8448
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8444
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8391
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8265
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8188
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8151
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "下三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8117
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8058
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8027
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7983
+   }
+  ],
+  "passages": [
+   "主对角线上元素全为一的对角矩阵就是单位矩阵。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "主对角线以外的元素全为零的方阵称为对角矩阵。",
+   "实对称矩阵总可以进行正交对角化。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。"
+  ]
+ },
+ "27": {
+  "entities": [
+   "正交矩阵",
+   "线性变换",
+   "保持内积"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "保持内积",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.8417
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7643
+   },
+   {
+    "head": "正交投影",
+    "relation": "is_a",
+    "tail": "线性变换",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7314
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "has_property",
+    "tail": "保持内积",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7225
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7083
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7081
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6873
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6677
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6675
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6618
+   },
+   {
+    "head": "线性变换",
+    "relation": "has_property",
+    "tail": "线性性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.656
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6557
+   }
+  ],
+  "passages": [
+   "正交矩阵对应的线性变换保持内积，因而也保持向量的长度。",
+   "实对称矩阵总可以进行正交对角化。",
+   "正交矩阵的列向量构成一组标准正交基。",
+   "二次型的矩阵是实对称矩阵，正交变换法可以把它化为标准形。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。"
+  ]
+ },
+ "28": {
+  "entities": [
+   "行列式",
+   "交错性"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.8062
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "多重线性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6442
+   },
+   {
+    "head": "范德蒙德行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6396
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "对角线法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6081
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.604
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "拉普拉斯展开",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5824
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5747
+   },
+   {
+    "head": "特征多项式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5717
+   },
+   {
+    "head": "对角线法则",
+    "relation": "acts_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5631
+   },
+   {
+    "head": "子式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5614
+   },
+   {
+    "head": "拉普拉斯展开",
+    "relation": "acts_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5276
+   },
+   {
+    "head": "范德蒙德行列式",
+    "relation": "is_a",
+    "tail": "行列式",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.5219
+   }
+  ],
+  "passages": [
+   "行列式具有多重线性和交错性，交换两行会使行列式变号。",
+   "二次型的矩阵是实对称矩阵，正交变换法可以把它化为标准形。",
+   "用配方法或正交变换法都可以把二次型化为标准形。",
+   "行列式乘法定理指出两个方阵乘积的行列式等于它们行列式的乘积。",
+   "实对称矩阵总可以进行正交对角化。"
+  ]
+ },
+ "29": {
+  "entities": [
+   "希尔伯特矩阵",
+   "特征值全为正"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "特征值全为正",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.9021
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "特征值全为实数",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8549
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "正定矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8187
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "正定性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8148
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7933
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7895
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7742
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7677
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7676
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7609
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7592
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7575
+   }
+  ],
+  "passages": [
+   "希尔伯特矩阵是一种正定矩阵。",
+   "正定矩阵的特征值全为正。",
+   "埃尔米特矩阵等于自身的共轭转置，它的特征值全为实数。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "方阵的迹等于主对角线元素之和，也等于全部特征值之和。"
+  ]
+ },
+ "30": {
+  "entities": [
+   "格拉姆矩阵",
+   "可对角化"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "格拉姆矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.8714
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7767
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7611
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7552
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7449
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7446
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7336
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7212
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7192
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7143
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7064
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.705
+   }
+  ],
+  "passages": [
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "格拉姆矩阵是一种半正定矩阵。",
+   "相似对角化的目标是找到可逆矩阵把方阵化为对角矩阵。",
+   "实对称矩阵总可以进行正交对角化。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。"
+  ]
+ },
+ "31": {
+  "entities": [
+   "吉文斯旋转矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.9121
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.889
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.844
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8332
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8207
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "正交矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8114
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7939
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7871
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7787
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7751
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "保持内积",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7623
+   }
+  ],
+  "passages": [
+   "吉文斯旋转矩阵是一种正交矩阵。",
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "存在逆矩阵的方阵称为可逆矩阵，又称非奇异矩阵。"
+  ]
+ },
+ "32": {
+  "entities": [
+   "正定矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8937
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.856
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7772
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.755
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7541
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7506
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7483
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7399
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "正定性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7351
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7328
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "特征值全为正",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7085
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "正定矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.6964
+   }
+  ],
+  "passages": [
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "正定矩阵的特征值全为正。",
+   "存在逆矩阵的方阵称为可逆矩阵，又称非奇异矩阵。"
+  ]
+ },
+ "33": {
+  "entities": [
+   "正定矩阵",
+   "对称矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.9078
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8752
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8544
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8499
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8374
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8287
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8134
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8002
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7996
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7888
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7879
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7847
+   }
+  ],
+  "passages": [
+   "若一个矩阵等于它的转置，则称它为对称矩阵。",
+   "实对称矩阵总可以进行正交对角化。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "正定矩阵的特征值全为正。",
+   "希尔伯特矩阵是一种正定矩阵。"
+  ]
+ },
+ "34": {
+  "entities": [
+   "正交矩阵",
+   "满秩"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.8607
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8039
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7883
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7785
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7574
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7341
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7283
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7267
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7225
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "正交矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7153
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7109
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.71
+   }
+  ],
+  "passages": [
+   "满足转置与自身乘积为单位矩阵的方阵称为正交矩阵。",
+   "实对称矩阵总可以进行正交对角化。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "正定矩阵的特征值全为正。",
+   "对方阵来说，可逆性与满秩是等价的。"
+  ]
+ },
+ "35": {
+  "entities": [
+   "单位矩阵",
+   "酉矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.9162
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.861
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8408
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8372
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8122
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7976
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7657
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7548
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7527
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.75
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7423
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "depends_on",
+    "tail": "共轭转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.741
+   }
+  ],
+  "passages": [
+   "正规矩阵包括酉矩阵和埃尔米特矩阵等多种类型。",
+   "酉矩阵是正交矩阵在复数域上的推广，它的定义用到共轭转置。",
+   "主对角线上元素全为一的对角矩阵就是单位矩阵。",
+   "舒尔定理指出任何复方阵都可以通过酉矩阵相似于上三角矩阵。",
+   "循环矩阵属于方阵的范畴。"
+  ]
+ },
+ "36": {
+  "entities": [
+   "对角矩阵",
+   "对称矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.9144
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.87
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8636
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8572
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.847
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8299
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8134
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8107
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8008
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7973
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7913
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7857
+   }
+  ],
+  "passages": [
+   "实对称矩阵总可以进行正交对角化。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "若一个矩阵等于它的转置，则称它为对称矩阵。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "主对角线上元素全为一的对角矩阵就是单位矩阵。"
+  ]
+ },
+ "37": {
+  "entities": [
+   "初等矩阵",
+   "满秩"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "初等矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.8421
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7617
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7499
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7357
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7175
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7076
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7034
+   },
+   {
+    "head": "过渡矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6982
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6976
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6744
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6734
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6722
+   }
+  ],
+  "passages": [
+   "对方阵来说，可逆性与满秩是等价的。",
+   "通过初等行变换把矩阵化为行阶梯形矩阵后，非零行的个数就是矩阵的秩。",
+   "矩阵乘法满足结合律和分配律，但一般不满足交换律。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "矩阵的秩可以定义为其非零子式的最高阶数。"
+  ]
+ },
+ "38": {
+  "entities": [
+   "过渡矩阵",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "过渡矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7419
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5701
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6749
+   },
+   {
+    "head": "过渡矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7493
+   },
+   {
+    "head": "过渡矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7332
+   },
+   {
+    "head": "过渡矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7253
+   },
+   {
+    "head": "过渡矩阵",
+    "relation": "depends_on",
+    "tail": "基底",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6696
+   },
+   {
+    "head": "过渡矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6588
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "对角线法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5897
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5728
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5636
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "多重线性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5505
+   }
+  ],
+  "passages": [
+   "行列式等于零的方阵称为奇异矩阵。",
+   "通过初等行变换把矩阵化为行阶梯形矩阵后，非零行的个数就是矩阵的秩。",
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "方阵可逆的充要条件是它的行列式不为零。",
+   "行数与列数相等的矩阵叫作方阵。"
+  ]
+ },
+ "39": {
+  "entities": [
+   "希尔伯特矩阵",
+   "实对称矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.9276
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.9024
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8528
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8489
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "正定矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8385
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8233
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8198
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8002
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7998
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.793
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7881
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7808
+   }
+  ],
+  "passages": [
+   "希尔伯特矩阵是一种正定矩阵。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "实对称矩阵总可以进行正交对角化。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "二次型可以用一个实对称矩阵来表示。"
+  ]
+ },
+ "40": {
+  "entities": [
+   "标准正交基",
+   "向量"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "标准正交基",
+    "relation": "is_a",
+    "tail": "正交基",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7945
+   },
+   {
+    "head": "标准正交基",
+    "relation": "is_a",
+    "tail": "基底",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7738
+   },
+   {
+    "head": "标准正交基",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7633
+   },
+   {
+    "head": "施密特正交化",
+    "relation": "yields",
+    "tail": "标准正交基",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6472
+   },
+   {
+    "head": "向量积",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5984
+   },
+   {
+    "head": "列向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.596
+   },
+   {
+    "head": "行向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5891
+   },
+   {
+    "head": "单位向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5856
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5845
+   },
+   {
+    "head": "向量加法",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5756
+   },
+   {
+    "head": "零向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5711
+   },
+   {
+    "head": "线性相关",
+    "relation": "depends_on",
+    "tail": "向量",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.5002
+   }
+  ],
+  "passages": [
+   "每个向量都是单位向量的正交基称为标准正交基。",
+   "由两两正交的向量构成的基底称为正交基。",
+   "正交矩阵的列向量构成一组标准正交基。",
+   "施密特正交化可以把一组线性无关的向量组化为标准正交基。",
+   "两两正交的非零向量构成正交向量组，正交向量组一定线性无关。"
+  ]
+ },
+ "41": {
+  "entities": [
+   "零空间",
+   "向量空间"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "零空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.9162
+   },
+   {
+    "head": "子空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7778
+   },
+   {
+    "head": "行空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7743
+   },
+   {
+    "head": "零空间",
+    "relation": "is_a",
+    "tail": "子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.757
+   },
+   {
+    "head": "像空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7568
+   },
+   {
+    "head": "列空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7429
+   },
+   {
+    "head": "核空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7346
+   },
+   {
+    "head": "内积空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7343
+   },
+   {
+    "head": "向量空间",
+    "relation": "depends_on",
+    "tail": "数乘",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7311
+   },
+   {
+    "head": "生成子空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6956
+   },
+   {
+    "head": "特征子空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6876
+   },
+   {
+    "head": "酉空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6863
+   }
+  ],
+  "passages": [
+   "所有分量都为零的向量称为零向量。",
+   "零空间的维数称为零化度。",
+   "基底中向量的个数称为向量空间的维数。",
+   "单位向量与零向量是两类特殊的向量。",
+   "定义了内积的向量空间称为内积空间。"
+  ]
+ },
+ "42": {
+  "entities": [
+   "欧几里得空间",
+   "向量空间"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "欧几里得空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.9382
+   },
+   {
+    "head": "欧几里得空间",
+    "relation": "is_a",
+    "tail": "内积空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8461
+   },
+   {
+    "head": "内积空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7013
+   },
+   {
+    "head": "列空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7002
+   },
+   {
+    "head": "子空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6958
+   },
+   {
+    "head": "零空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6923
+   },
+   {
+    "head": "行空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.692
+   },
+   {
+    "head": "像空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6868
+   },
+   {
+    "head": "向量空间",
+    "relation": "depends_on",
+    "tail": "数乘",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.6705
+   },
+   {
+    "head": "希尔伯特空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6654
+   },
+   {
+    "head": "核空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6589
+   },
+   {
+    "head": "生成子空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6482
+   }
+  ],
+  "passages": [
+   "实数域上的有限维内积空间称为欧几里得空间，复数域上的称为酉空间。",
+   "定义了内积的向量空间称为内积空间。",
+   "基底中向量的个数称为向量空间的维数。",
+   "满足加法和数乘封闭性的集合称为向量空间，也叫线性空间。",
+   "向量空间的非空子集若对加法和数乘封闭，就是一个子空间。"
+  ]
+ },
+ "43": {
+  "entities": [
+   "酉矩阵",
+   "向量"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.7052
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5585
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5747
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8058
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "has_property",
+    "tail": "保持内积",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7625
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "depends_on",
+    "tail": "共轭转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6985
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6976
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6911
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6911
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.6824
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6787
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "part_of",
+    "tail": "奇异值分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6508
+   }
+  ],
+  "passages": [
+   "正交矩阵对应的线性变换保持内积，因而也保持向量的长度。",
+   "酉矩阵是正交矩阵在复数域上的推广，它的定义用到共轭转置。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "哈达玛积适用于矩阵，它满足交换律。",
+   "舒尔定理指出任何复方阵都可以通过酉矩阵相似于上三角矩阵。"
+  ]
+ },
+ "44": {
+  "entities": [
+   "吉文斯旋转矩阵",
+   "向量"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.774
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.4876
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5077
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8656
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "保持内积",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8004
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7545
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7508
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "正交矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7431
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7425
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7354
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7265
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.709
+   }
+  ],
+  "passages": [
+   "吉文斯旋转矩阵是一种正交矩阵。",
+   "正交矩阵对应的线性变换保持内积，因而也保持向量的长度。",
+   "长度为一的向量叫作单位向量，任何非零向量除以它的范数就得到单位向量。",
+   "豪斯霍尔德变换可以作用于向量。",
+   "哈达玛积适用于矩阵，它满足交换律。"
+  ]
+ },
+ "45": {
+  "entities": [
+   "半正定矩阵",
+   "特征值"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7998
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6577
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5989
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "has_property",
+    "tail": "特征值全为实数",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8824
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.786
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7769
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7605
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7565
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7536
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7471
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.747
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7332
+   }
+  ],
+  "passages": [
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "正定矩阵的特征值全为正。",
+   "埃尔米特矩阵等于自身的共轭转置，它的特征值全为实数。",
+   "格拉姆矩阵是一种半正定矩阵。",
+   "希尔伯特矩阵是一种正定矩阵。"
+  ]
+ },
+ "46": {
+  "entities": [
+   "希尔伯特矩阵",
+   "奇异矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.7919
+   },
+   {
+    "head": "奇异矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7429
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8327
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "正定矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8072
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.797
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7932
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7885
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7832
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7786
+   },
+   {
+    "head": "奇异矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7609
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7352
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "正定性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7333
+   }
+  ],
+  "passages": [
+   "希尔伯特矩阵是一种正定矩阵。",
+   "存在逆矩阵的方阵称为可逆矩阵，又称非奇异矩阵。",
+   "奇异值是矩阵与其转置乘积的特征值的平方根。",
+   "伪逆矩阵可以通过奇异值分解求得。",
+   "行列式等于零的方阵称为奇异矩阵。"
+  ]
+ },
+ "47": {
+  "entities": [
+   "吉文斯旋转矩阵",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.7709
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.4829
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5859
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7957
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7791
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7722
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "正交矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7645
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7548
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7501
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7387
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7331
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "has_property",
+    "tail": "保持内积",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7216
+   }
+  ],
+  "passages": [
+   "吉文斯旋转矩阵是一种正交矩阵。",
+   "行列式等于零的方阵称为奇异矩阵。",
+   "通过初等行变换把矩阵化为行阶梯形矩阵后，非零行的个数就是矩阵的秩。",
+   "方阵可逆的充要条件是它的行列式不为零。",
+   "某次幂等于零矩阵的方阵称为幂零矩阵。"
+  ]
+ },
+ "48": {
+  "entities": [
+   "格拉姆矩阵",
+   "特征值"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.753
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5635
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5368
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "has_property",
+    "tail": "特征值全为实数",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8307
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7102
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7045
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7026
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7013
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.694
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6806
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6788
+   },
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "特征方程",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5837
+   }
+  ],
+  "passages": [
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "格拉姆矩阵是一种半正定矩阵。",
+   "埃尔米特矩阵等于自身的共轭转置，它的特征值全为实数。",
+   "正定矩阵的特征值全为正。",
+   "对大型矩阵，幂法可以近似求出模最大的特征值。"
+  ]
+ },
+ "49": {
+  "entities": [
+   "初等矩阵",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7288
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5376
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6538
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7616
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7487
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7004
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6369
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "对角线法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6036
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5789
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5659
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5605
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "多重线性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5492
+   }
+  ],
+  "passages": [
+   "行列式等于零的方阵称为奇异矩阵。",
+   "通过初等行变换把矩阵化为行阶梯形矩阵后，非零行的个数就是矩阵的秩。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "某次幂等于零矩阵的方阵称为幂零矩阵。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。"
+  ]
+ },
+ "50": {
+  "entities": [
+   "标准正交基",
+   "基底"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "标准正交基",
+    "relation": "is_a",
+    "tail": "基底",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.9367
+   },
+   {
+    "head": "正交基",
+    "relation": "is_a",
+    "tail": "基底",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8829
+   },
+   {
+    "head": "标准正交基",
+    "relation": "is_a",
+    "tail": "正交基",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8709
+   },
+   {
+    "head": "标准正交基",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8191
+   },
+   {
+    "head": "施密特正交化",
+    "relation": "yields",
+    "tail": "标准正交基",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6884
+   },
+   {
+    "head": "基扩充定理",
+    "relation": "involves",
+    "tail": "基底",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6813
+   },
+   {
+    "head": "坐标",
+    "relation": "depends_on",
+    "tail": "基底",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6389
+   },
+   {
+    "head": "基底",
+    "relation": "depends_on",
+    "tail": "线性无关",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6162
+   },
+   {
+    "head": "基底",
+    "relation": "depends_on",
+    "tail": "生成子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6137
+   },
+   {
+    "head": "维数",
+    "relation": "depends_on",
+    "tail": "基底",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.565
+   },
+   {
+    "head": "过渡矩阵",
+    "relation": "depends_on",
+    "tail": "基底",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5239
+   }
+  ],
+  "passages": [
+   "由两两正交的向量构成的基底称为正交基。",
+   "每个向量都是单位向量的正交基称为标准正交基。",
+   "正交矩阵的列向量构成一组标准正交基。",
+   "施密特正交化可以把一组线性无关的向量组化为标准正交基。",
+   "向量在给定基底下的表示系数称为坐标。"
+  ]
+ },
+ "51": {
+  "entities": [
+   "矩阵",
+   "可逆矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8365
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8266
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.813
+   },
+   {
+    "head": "求逆",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8095
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8064
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7998
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.797
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7934
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7926
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7769
+   },
+   {
+    "head": "伴随矩阵法",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7717
+   },
+   {
+    "head": "过渡矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7587
+   }
+  ],
+  "passages": [
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "把可逆矩阵与单位矩阵并排，做初等行变换直到左边变为单位矩阵，右边就是逆矩阵。",
+   "存在逆矩阵的方阵称为可逆矩阵，又称非奇异矩阵。"
+  ]
+ },
+ "52": {
+  "entities": [
+   "矩阵",
+   "方阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "方阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8203
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7725
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7693
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7657
+   },
+   {
+    "head": "下三角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7621
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7568
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7567
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7547
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7488
+   },
+   {
+    "head": "伴随矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7335
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7323
+   },
+   {
+    "head": "三角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7304
+   }
+  ],
+  "passages": [
+   "行数与列数相等的矩阵叫作方阵。",
+   "循环矩阵属于方阵的范畴。",
+   "行列式等于零的方阵称为奇异矩阵。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "正规矩阵包括酉矩阵和埃尔米特矩阵等多种类型。"
+  ]
+ },
+ "53": {
+  "entities": [
+   "格拉姆矩阵",
+   "矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8669
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8421
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8371
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.822
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8073
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8058
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.77
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "has_property",
+    "tail": "特征值全为实数",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.77
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7656
+   },
+   {
+    "head": "下三角矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6515
+   },
+   {
+    "head": "方阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6438
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6403
+   }
+  ],
+  "passages": [
+   "格拉姆矩阵是一种半正定矩阵。",
+   "循环矩阵属于方阵的范畴。",
+   "正规矩阵包括酉矩阵和埃尔米特矩阵等多种类型。",
+   "行数与列数相等的矩阵叫作方阵。",
+   "行列式等于零的方阵称为奇异矩阵。"
+  ]
+ },
+ "54": {
+  "entities": [
+   "正交矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8812
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8363
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8246
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.816
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "保持内积",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8103
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8097
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8089
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7886
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "正交矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7645
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7443
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7441
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.744
+   }
+  ],
+  "passages": [
+   "正交矩阵的列向量构成一组标准正交基。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "实对称矩阵总可以进行正交对角化。",
+   "正定矩阵的特征值全为正。",
+   "满足转置与自身乘积为单位矩阵的方阵称为正交矩阵。"
+  ]
+ },
+ "55": {
+  "entities": [
+   "范德蒙德行列式",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "范德蒙德行列式",
+    "relation": "is_a",
+    "tail": "行列式",
+    "source": "extracted",
+    "reason": "路径",
+    "score": 0.9196
+   },
+   {
+    "head": "范德蒙德行列式",
+    "relation": "has_property",
+    "tail": "多重线性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8479
+   },
+   {
+    "head": "范德蒙德行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8456
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "多重线性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6521
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6507
+   },
+   {
+    "head": "特征多项式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6018
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5713
+   },
+   {
+    "head": "子式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5704
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5516
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "拉普拉斯展开",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.543
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "对角线法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5299
+   },
+   {
+    "head": "克拉默法则",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5277
+   }
+  ],
+  "passages": [
+   "范德蒙德行列式是一种特殊的行列式。",
+   "三角不等式是范数必须满足的基本性质。",
+   "行列式具有多重线性和交错性，交换两行会使行列式变号。",
+   "划去某个元素所在的行和列后得到的行列式称为该元素的余子式。",
+   "相似矩阵具有相同的特征多项式、相同的迹和相同的行列式。"
+  ]
+ },
+ "56": {
+  "entities": [
+   "楚列斯基分解",
+   "矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "楚列斯基分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8785
+   },
+   {
+    "head": "楚列斯基分解",
+    "relation": "acts_on",
+    "tail": "正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8749
+   },
+   {
+    "head": "下三角矩阵",
+    "relation": "part_of",
+    "tail": "楚列斯基分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8231
+   },
+   {
+    "head": "QR分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6799
+   },
+   {
+    "head": "LU分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.6799
+   },
+   {
+    "head": "奇异值分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.612
+   }
+  ],
+  "passages": [
+   "楚列斯基分解适用于正定矩阵，它把矩阵分解为下三角矩阵与其转置的乘积。",
+   "可逆矩阵定理把可逆矩阵、行列式、秩和齐次线性方程组的解联系在一起。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。",
+   "线性方程组解的判定定理指出，方程组有解当且仅当系数矩阵的秩等于增广矩阵的秩。",
+   "齐次线性方程组解空间的一组基底称为基础解系。"
+  ]
+ },
+ "57": {
+  "entities": [
+   "单位矩阵",
+   "矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7992
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "下三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7711
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "幂等矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7706
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7679
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7657
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7609
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7508
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7455
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "正交矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7409
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7408
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7307
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7279
+   }
+  ],
+  "passages": [
+   "主对角线上元素全为一的对角矩阵就是单位矩阵。",
+   "循环矩阵属于方阵的范畴。",
+   "只有一行的矩阵称为行向量，只有一列的矩阵称为列向量。",
+   "行数与列数相等的矩阵叫作方阵。",
+   "行列式等于零的方阵称为奇异矩阵。"
+  ]
+ },
+ "58": {
+  "entities": [
+   "对称矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7934
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7756
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7727
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.762
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7497
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7327
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7284
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7223
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7171
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7101
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6765
+   }
+  ],
+  "passages": [
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "若一个矩阵等于它的转置，则称它为对称矩阵。",
+   "若一个矩阵的转置等于它的相反数，则称它为反对称矩阵。",
+   "实对称矩阵总可以进行正交对角化。"
+  ]
+ },
+ "59": {
+  "entities": [
+   "可逆矩阵",
+   "对称矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7944
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7918
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.824
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8132
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8087
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7993
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7811
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.78
+   },
+   {
+    "head": "求逆",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7782
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7732
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7691
+   },
+   {
+    "head": "伴随矩阵法",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7679
+   }
+  ],
+  "passages": [
+   "若一个矩阵等于它的转置，则称它为对称矩阵。",
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "若一个矩阵的转置等于它的相反数，则称它为反对称矩阵。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。"
+  ]
+ },
+ "60": {
+  "entities": [
+   "半正定矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7862
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7788
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7686
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7677
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7656
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7575
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7436
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7073
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "has_property",
+    "tail": "特征值全为实数",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6977
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.691
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.6909
+   }
+  ],
+  "passages": [
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "正定矩阵的特征值全为正。",
+   "格拉姆矩阵是一种半正定矩阵。"
+  ]
+ },
+ "61": {
+  "entities": [
+   "矩阵乘法",
+   "交换律"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "矩阵乘法",
+    "relation": "has_property",
+    "tail": "结合律",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7606
+   },
+   {
+    "head": "矩阵加法",
+    "relation": "has_property",
+    "tail": "结合律",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6805
+   },
+   {
+    "head": "矩阵加法",
+    "relation": "has_property",
+    "tail": "交换律",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7929
+   },
+   {
+    "head": "矩阵乘法",
+    "relation": "has_property",
+    "tail": "非交换性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7871
+   },
+   {
+    "head": "矩阵乘法",
+    "relation": "has_property",
+    "tail": "分配律",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7657
+   },
+   {
+    "head": "矩阵乘法",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.704
+   },
+   {
+    "head": "向量加法",
+    "relation": "has_property",
+    "tail": "交换律",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6651
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "矩阵乘法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6585
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "depends_on",
+    "tail": "矩阵乘法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.637
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "depends_on",
+    "tail": "矩阵乘法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6365
+   }
+  ],
+  "passages": [
+   "矩阵乘法满足结合律和分配律，但一般不满足交换律。",
+   "矩阵加法满足交换律与结合律。",
+   "哈达玛积适用于矩阵，它满足交换律。",
+   "数乘对向量加法满足分配律。",
+   "满足转置与自身乘积为单位矩阵的方阵称为正交矩阵。"
+  ]
+ },
+ "62": {
+  "entities": [
+   "方阵",
+   "可对角化"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "相似对角化",
+    "relation": "acts_on",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8026
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7791
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7659
+   },
+   {
+    "head": "可对角化",
+    "relation": "depends_on",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7305
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7286
+   },
+   {
+    "head": "可对角化",
+    "relation": "depends_on",
+    "tail": "相似矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7115
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7029
+   },
+   {
+    "head": "三角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6978
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6951
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6945
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6784
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6397
+   }
+  ],
+  "passages": [
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "并不是所有方阵都可对角化，但每个复方阵都相似于一个若尔当标准形。",
+   "相似对角化的目标是找到可逆矩阵把方阵化为对角矩阵。",
+   "方阵的迹等于主对角线元素之和，也等于全部特征值之和。",
+   "主对角线以外的元素全为零的方阵称为对角矩阵。"
+  ]
+ },
+ "63": {
+  "entities": [
+   "上三角矩阵",
+   "对角矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.8791
+   },
+   {
+    "head": "上三角矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.857
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8431
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "下三角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8416
+   },
+   {
+    "head": "上三角矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8406
+   },
+   {
+    "head": "上三角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8263
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7956
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7837
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7669
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7659
+   },
+   {
+    "head": "上三角矩阵",
+    "relation": "part_of",
+    "tail": "QR分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7237
+   },
+   {
+    "head": "上三角矩阵",
+    "relation": "part_of",
+    "tail": "LU分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7237
+   }
+  ],
+  "passages": [
+   "对角矩阵既是上三角矩阵又是下三角矩阵。",
+   "主对角线下方元素全为零的方阵是上三角矩阵。",
+   "主对角线上元素全为一的对角矩阵就是单位矩阵。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。"
+  ]
+ },
+ "64": {
+  "entities": [
+   "可逆矩阵",
+   "正交矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.8967
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8377
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8353
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8099
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8053
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8025
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7888
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.78
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7745
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7647
+   },
+   {
+    "head": "求逆",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7542
+   },
+   {
+    "head": "伴随矩阵法",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7532
+   }
+  ],
+  "passages": [
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "实对称矩阵总可以进行正交对角化。"
+  ]
+ },
+ "65": {
+  "entities": [
+   "幂零矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "幂零矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7853
+   },
+   {
+    "head": "幂零矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7631
+   },
+   {
+    "head": "幂零矩阵",
+    "relation": "depends_on",
+    "tail": "矩阵的幂",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7411
+   }
+  ],
+  "passages": [
+   "某次幂等于零矩阵的方阵称为幂零矩阵。",
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "伪逆矩阵可以通过奇异值分解求得。",
+   "存在逆矩阵的方阵称为可逆矩阵，又称非奇异矩阵。"
+  ]
+ },
+ "66": {
+  "entities": [
+   "对角矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7745
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7703
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7618
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7552
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7356
+   },
+   {
+    "head": "相似对角化",
+    "relation": "yields",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7306
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7296
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7192
+   },
+   {
+    "head": "可对角化",
+    "relation": "depends_on",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7105
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "下三角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7052
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6973
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "part_of",
+    "tail": "奇异值分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6769
+   }
+  ],
+  "passages": [
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "相似对角化的目标是找到可逆矩阵把方阵化为对角矩阵。",
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。"
+  ]
+ },
+ "67": {
+  "entities": [
+   "实对称矩阵",
+   "特征值"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7048
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5795
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "has_property",
+    "tail": "特征值全为实数",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8367
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8117
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.787
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7864
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7757
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7742
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7571
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7417
+   },
+   {
+    "head": "正交对角化",
+    "relation": "acts_on",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.729
+   },
+   {
+    "head": "正交变换法",
+    "relation": "acts_on",
+    "tail": "实对称矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7278
+   }
+  ],
+  "passages": [
+   "正定矩阵的特征值全为正。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "实对称矩阵总可以进行正交对角化。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "二次型的矩阵是实对称矩阵，正交变换法可以把它化为标准形。"
+  ]
+ },
+ "68": {
+  "entities": [
+   "正交向量组",
+   "标准正交基"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正交向量组",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7739
+   },
+   {
+    "head": "标准正交基",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.7751
+   },
+   {
+    "head": "标准正交基",
+    "relation": "is_a",
+    "tail": "正交基",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8239
+   },
+   {
+    "head": "标准正交基",
+    "relation": "is_a",
+    "tail": "基底",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8077
+   },
+   {
+    "head": "正交向量组",
+    "relation": "is_a",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7942
+   },
+   {
+    "head": "施密特正交化",
+    "relation": "yields",
+    "tail": "标准正交基",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6732
+   }
+  ],
+  "passages": [
+   "每个向量都是单位向量的正交基称为标准正交基。",
+   "正交矩阵的列向量构成一组标准正交基。",
+   "由两两正交的向量构成的基底称为正交基。",
+   "施密特正交化可以把一组线性无关的向量组化为标准正交基。",
+   "向量在给定基底下的表示系数称为坐标。"
+  ]
+ },
+ "69": {
+  "entities": [
+   "线性相关",
+   "向量组",
+   "基底"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "线性无关",
+    "relation": "depends_on",
+    "tail": "线性相关",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5868
+   },
+   {
+    "head": "极大线性无关组",
+    "relation": "depends_on",
+    "tail": "线性无关",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5982
+   },
+   {
+    "head": "极大线性无关组",
+    "relation": "is_a",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6935
+   },
+   {
+    "head": "基底",
+    "relation": "depends_on",
+    "tail": "线性无关",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7137
+   },
+   {
+    "head": "线性相关",
+    "relation": "depends_on",
+    "tail": "向量",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.705
+   },
+   {
+    "head": "线性相关",
+    "relation": "depends_on",
+    "tail": "线性组合",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6633
+   },
+   {
+    "head": "正交向量组",
+    "relation": "is_a",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6404
+   },
+   {
+    "head": "基扩充定理",
+    "relation": "involves",
+    "tail": "基底",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6234
+   },
+   {
+    "head": "基底",
+    "relation": "depends_on",
+    "tail": "生成子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.616
+   },
+   {
+    "head": "标准正交基",
+    "relation": "is_a",
+    "tail": "基底",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6048
+   },
+   {
+    "head": "正交基",
+    "relation": "is_a",
+    "tail": "基底",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5998
+   },
+   {
+    "head": "施密特正交化",
+    "relation": "acts_on",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5758
+   }
+  ],
+  "passages": [
+   "基扩充定理说明任何线性无关的向量组都可以扩充为整个空间的基底。",
+   "既线性无关又能张成整个空间的向量组称为该空间的基底。",
+   "基础解系中的向量是线性无关的。",
+   "如果存在一组不全为零的系数使线性组合等于零向量，则称这组向量线性相关。",
+   "施密特正交化可以把一组线性无关的向量组化为标准正交基。"
+  ]
+ },
+ "70": {
+  "entities": [
+   "奇异矩阵",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "奇异矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.727
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "方阵",
+    "source": "extracted",
+    "reason": "路径",
+    "score": 0.5639
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5544
+   },
+   {
+    "head": "奇异矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7441
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6185
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5847
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "对角线法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.562
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "多重线性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5593
+   },
+   {
+    "head": "特征多项式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.533
+   },
+   {
+    "head": "对角线法则",
+    "relation": "acts_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5261
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5251
+   },
+   {
+    "head": "子式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.517
+   }
+  ],
+  "passages": [
+   "行列式等于零的方阵称为奇异矩阵。",
+   "通过初等行变换把矩阵化为行阶梯形矩阵后，非零行的个数就是矩阵的秩。",
+   "矩阵的行空间与列空间的维数相同，都等于矩阵的秩。",
+   "伪逆矩阵可以通过奇异值分解求得。",
+   "奇异值分解适用于任意矩阵，它把矩阵写成酉矩阵、对角矩阵和酉矩阵的乘积。"
+  ]
+ },
+ "71": {
+  "entities": [
+   "非齐次线性方程组",
+   "子空间"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "非齐次线性方程组",
+    "relation": "is_a",
+    "tail": "线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7861
+   },
+   {
+    "head": "特解",
+    "relation": "depends_on",
+    "tail": "非齐次线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7133
+   },
+   {
+    "head": "克拉默法则",
+    "relation": "involves",
+    "tail": "非齐次线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.658
+   },
+   {
+    "head": "生成子空间",
+    "relation": "is_a",
+    "tail": "子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6119
+   },
+   {
+    "head": "特征子空间",
+    "relation": "is_a",
+    "tail": "子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5835
+   },
+   {
+    "head": "维数公式",
+    "relation": "involves",
+    "tail": "子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5745
+   },
+   {
+    "head": "子空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5714
+   },
+   {
+    "head": "列空间",
+    "relation": "is_a",
+    "tail": "子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5691
+   },
+   {
+    "head": "零空间",
+    "relation": "is_a",
+    "tail": "子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5406
+   },
+   {
+    "head": "像空间",
+    "relation": "is_a",
+    "tail": "子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5402
+   },
+   {
+    "head": "核空间",
+    "relation": "is_a",
+    "tail": "子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5358
+   },
+   {
+    "head": "行空间",
+    "relation": "is_a",
+    "tail": "子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5284
+   }
+  ],
+  "passages": [
+   "齐次线性方程组的解集构成一个子空间，称为零空间。",
+   "非齐次线性方程组的通解等于它的一个特解加上对应齐次线性方程组的通解。",
+   "齐次线性方程组解空间的一组基底称为基础解系。",
+   "由一组向量的所有线性组合构成的集合叫作生成子空间。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。"
+  ]
+ },
+ "72": {
+  "entities": [
+   "方阵",
+   "可逆矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8917
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8578
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8481
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.834
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.824
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7943
+   },
+   {
+    "head": "方阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.794
+   },
+   {
+    "head": "求逆",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7746
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7717
+   },
+   {
+    "head": "伴随矩阵法",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7701
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7687
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7628
+   }
+  ],
+  "passages": [
+   "存在逆矩阵的方阵称为可逆矩阵，又称非奇异矩阵。",
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "循环矩阵属于方阵的范畴。",
+   "若存在可逆矩阵使两个方阵满足相似关系，则称它们为相似矩阵。"
+  ]
+ },
+ "73": {
+  "entities": [
+   "幂等矩阵",
+   "单位矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "幂等矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.9046
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8619
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8388
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7791
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "depends_on",
+    "tail": "矩阵乘法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7758
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7617
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7581
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.754
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7442
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7396
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "下三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7351
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7346
+   }
+  ],
+  "passages": [
+   "某次幂等于零矩阵的方阵称为幂零矩阵。",
+   "矩阵指数的定义依赖于矩阵的幂。",
+   "主对角线上元素全为一的对角矩阵就是单位矩阵。",
+   "满足自身平方等于自身的方阵称为幂等矩阵，正交投影对应的矩阵就是幂等矩阵。",
+   "对大型矩阵，幂法可以近似求出模最大的特征值。"
+  ]
+ },
+ "74": {
+  "entities": [
+   "相似矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "相似矩阵",
+    "relation": "depends_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7231
+   },
+   {
+    "head": "若尔当标准形定理",
+    "relation": "involves",
+    "tail": "相似矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.712
+   },
+   {
+    "head": "可对角化",
+    "relation": "depends_on",
+    "tail": "相似矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6321
+   }
+  ],
+  "passages": [
+   "相似矩阵具有相同的特征多项式、相同的迹和相同的行列式。",
+   "若存在可逆矩阵使两个方阵满足相似关系，则称它们为相似矩阵。",
+   "相似对角化的目标是找到可逆矩阵把方阵化为对角矩阵。",
+   "并不是所有方阵都可对角化，但每个复方阵都相似于一个若尔当标准形。",
+   "若一个矩阵等于它的转置，则称它为对称矩阵。"
+  ]
+ },
+ "75": {
+  "entities": [
+   "克拉默法则"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "线性方程组",
+    "relation": "solved_by",
+    "tail": "克拉默法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7469
+   },
+   {
+    "head": "克拉默法则",
+    "relation": "involves",
+    "tail": "系数矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7297
+   },
+   {
+    "head": "克拉默法则",
+    "relation": "involves",
+    "tail": "非齐次线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7282
+   },
+   {
+    "head": "克拉默法则",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7189
+   }
+  ],
+  "passages": [
+   "克拉默法则用行列式给出了方程个数与未知数个数相等时非齐次线性方程组的解。",
+   "行数与列数相等的矩阵叫作方阵。",
+   "并不是所有方阵都可对角化，但每个复方阵都相似于一个若尔当标准形。",
+   "线性方程组解的判定定理指出，方程组有解当且仅当系数矩阵的秩等于增广矩阵的秩。",
+   "雅可比迭代法是求解线性方程组的常用方法。"
+  ]
+ },
+ "76": {
+  "entities": [
+   "楚列斯基分解",
+   "矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "楚列斯基分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8691
+   },
+   {
+    "head": "楚列斯基分解",
+    "relation": "acts_on",
+    "tail": "正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8571
+   },
+   {
+    "head": "下三角矩阵",
+    "relation": "part_of",
+    "tail": "楚列斯基分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.782
+   },
+   {
+    "head": "QR分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6919
+   },
+   {
+    "head": "LU分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.6919
+   },
+   {
+    "head": "奇异值分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.615
+   }
+  ],
+  "passages": [
+   "楚列斯基分解适用于正定矩阵，它把矩阵分解为下三角矩阵与其转置的乘积。",
+   "奇异值分解适用于任意矩阵，它把矩阵写成酉矩阵、对角矩阵和酉矩阵的乘积。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。",
+   "可逆矩阵定理把可逆矩阵、行列式、秩和齐次线性方程组的解联系在一起。",
+   "伪逆矩阵可以通过奇异值分解求得。"
+  ]
+ },
+ "77": {
+  "entities": [
+   "埃尔米特矩阵",
+   "实对称矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.9088
+   },
+   {
+    "head": "埃尔米特矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8371
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8081
+   },
+   {
+    "head": "埃尔米特矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8026
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8012
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7827
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7803
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7761
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7729
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.769
+   },
+   {
+    "head": "埃尔米特矩阵",
+    "relation": "has_property",
+    "tail": "特征值全为实数",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7666
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "埃尔米特矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.757
+   }
+  ],
+  "passages": [
+   "埃尔米特矩阵等于自身的共轭转置，它的特征值全为实数。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "希尔伯特矩阵是一种正定矩阵。",
+   "实对称矩阵总可以进行正交对角化。",
+   "二次型可以用一个实对称矩阵来表示。"
+  ]
+ },
+ "78": {
+  "entities": [
+   "酉矩阵",
+   "正交矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.904
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.8467
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8103
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7825
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7765
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7722
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7586
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7584
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7554
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "depends_on",
+    "tail": "共轭转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.739
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7381
+   },
+   {
+    "head": "酉矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7231
+   }
+  ],
+  "passages": [
+   "酉矩阵是正交矩阵在复数域上的推广，它的定义用到共轭转置。",
+   "正规矩阵包括酉矩阵和埃尔米特矩阵等多种类型。",
+   "正定矩阵的特征值全为正。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "实对称矩阵总可以进行正交对角化。"
+  ]
+ },
+ "79": {
+  "entities": [
+   "特征值",
+   "几何重数",
+   "代数重数"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "特征子空间",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5231
+   },
+   {
+    "head": "几何重数",
+    "relation": "depends_on",
+    "tail": "特征子空间",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7186
+   },
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "特征方程",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6384
+   },
+   {
+    "head": "特征方程",
+    "relation": "depends_on",
+    "tail": "特征多项式",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5604
+   },
+   {
+    "head": "代数重数",
+    "relation": "depends_on",
+    "tail": "特征多项式",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7684
+   },
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "幂法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6507
+   },
+   {
+    "head": "特征值",
+    "relation": "part_of",
+    "tail": "特征分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5606
+   },
+   {
+    "head": "特征向量",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5572
+   },
+   {
+    "head": "奇异值",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5273
+   },
+   {
+    "head": "若尔当块",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5246
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.511
+   }
+  ],
+  "passages": [
+   "特征值作为特征多项式根的重数称为代数重数。",
+   "特征子空间的维数称为几何重数，它不超过代数重数。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "求出特征值后，解对应的齐次线性方程组就能得到特征向量。",
+   "特征多项式是由行列式定义的，令它等于零就得到特征方程。"
+  ]
+ },
+ "80": {
+  "entities": [
+   "反对称矩阵",
+   "对称矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "反对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.8007
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7494
+   },
+   {
+    "head": "反对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8295
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7832
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7601
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7553
+   },
+   {
+    "head": "反对称矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7527
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.74
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7313
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.724
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7209
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7172
+   }
+  ],
+  "passages": [
+   "若一个矩阵的转置等于它的相反数，则称它为反对称矩阵。",
+   "若一个矩阵等于它的转置，则称它为对称矩阵。",
+   "实对称矩阵总可以进行正交对角化。",
+   "主对角线以外的元素全为零的方阵称为对角矩阵。",
+   "通过初等行变换把矩阵化为行阶梯形矩阵后，非零行的个数就是矩阵的秩。"
+  ]
+ },
+ "81": {
+  "entities": [
+   "正定矩阵",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7465
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6037
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.709
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7555
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7475
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7424
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7339
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7163
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7161
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "正定性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7094
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7093
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7063
+   }
+  ],
+  "passages": [
+   "行数与列数相等的矩阵叫作方阵。",
+   "正定矩阵的特征值全为正。",
+   "行列式等于零的方阵称为奇异矩阵。",
+   "正交矩阵的列向量构成一组标准正交基。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。"
+  ]
+ },
+ "82": {
+  "entities": [
+   "实对称矩阵",
+   "正定矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.9037
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8716
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "实对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.8565
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8506
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.846
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8247
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8185
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8184
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7925
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "半正定矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7914
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7846
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7649
+   }
+  ],
+  "passages": [
+   "实对称矩阵总可以进行正交对角化。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "若一个矩阵等于它的转置，则称它为对称矩阵。",
+   "正定矩阵的特征值全为正。"
+  ]
+ },
+ "83": {
+  "entities": [
+   "矩阵",
+   "可逆矩阵",
+   "逆矩阵"
+  ],
+  "fuzzy": true,
+  "facts": [
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7841
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7935
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7853
+   },
+   {
+    "head": "求逆",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7768
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7761
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7677
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7652
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7628
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7618
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7546
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7483
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7467
+   }
+  ],
+  "passages": [
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "把可逆矩阵与单位矩阵并排，做初等行变换直到左边变为单位矩阵，右边就是逆矩阵。",
+   "存在逆矩阵的方阵称为可逆矩阵，又称非奇异矩阵。"
+  ]
+ },
+ "84": {
+  "entities": [
+   "非交换性"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "矩阵乘法",
+    "relation": "has_property",
+    "tail": "非交换性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5312
+   }
+  ],
+  "passages": [
+   "矩阵乘法满足结合律和分配律，但一般不满足交换律。",
+   "矩阵加法满足交换律与结合律。",
+   "数乘对向量加法满足分配律。",
+   "三角不等式是范数必须满足的基本性质。",
+   "哈达玛积适用于矩阵，它满足交换律。"
+  ]
+ },
+ "85": {
+  "entities": [
+   "矩阵",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "行阶梯形矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6758
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6742
+   },
+   {
+    "head": "初等行变换",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6475
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6421
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6172
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "多重线性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6078
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6055
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "对角线法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6039
+   },
+   {
+    "head": "子式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.595
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5921
+   },
+   {
+    "head": "特征多项式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.59
+   },
+   {
+    "head": "范德蒙德行列式",
+    "relation": "is_a",
+    "tail": "行列式",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.5864
+   }
+  ],
+  "passages": [
+   "二阶和三阶行列式可以用对角线法则直接计算。",
+   "行数与列数相等的矩阵叫作方阵。",
+   "行列式乘法定理指出两个方阵乘积的行列式等于它们行列式的乘积。",
+   "矩阵的行空间与列空间的维数相同，都等于矩阵的秩。",
+   "二次型可以用一个实对称矩阵来表示。"
+  ]
+ },
+ "86": {
+  "entities": [
+   "对角矩阵",
+   "特征值"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "对角矩阵",
+    "relation": "part_of",
+    "tail": "特征分解",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7844
+   },
+   {
+    "head": "特征值",
+    "relation": "part_of",
+    "tail": "特征分解",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6278
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7846
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7825
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "part_of",
+    "tail": "奇异值分解",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7712
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7682
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "下三角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7676
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7637
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "has_property",
+    "tail": "可对角化",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7637
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7624
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7561
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7143
+   }
+  ],
+  "passages": [
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "特征分解把可对角化的方阵写成由特征向量和特征值组成的矩阵乘积。",
+   "方阵的迹等于主对角线元素之和，也等于全部特征值之和。",
+   "正定矩阵的特征值全为正。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。"
+  ]
+ },
+ "87": {
+  "entities": [
+   "单位矩阵",
+   "迹"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.6541
+   },
+   {
+    "head": "迹",
+    "relation": "depends_on",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6198
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6996
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "下三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6926
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "上三角矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6908
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6562
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "幂等矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6529
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6339
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6281
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对角矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6276
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6214
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "正交矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6201
+   }
+  ],
+  "passages": [
+   "方阵的迹等于主对角线元素之和，也等于全部特征值之和。",
+   "通过初等行变换把矩阵化为行阶梯形矩阵后，非零行的个数就是矩阵的秩。",
+   "矩阵的秩可以定义为其非零子式的最高阶数。",
+   "循环矩阵属于方阵的范畴。",
+   "行阶梯形矩阵进一步化简可以得到行最简形矩阵。"
+  ]
+ },
+ "88": {
+  "entities": [
+   "向量",
+   "范数"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "单位向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5946
+   },
+   {
+    "head": "单位向量",
+    "relation": "depends_on",
+    "tail": "范数",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6475
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6337
+   },
+   {
+    "head": "向量积",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6243
+   },
+   {
+    "head": "列向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6116
+   },
+   {
+    "head": "范数",
+    "relation": "depends_on",
+    "tail": "内积",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5873
+   },
+   {
+    "head": "向量加法",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5833
+   },
+   {
+    "head": "三角不等式",
+    "relation": "involves",
+    "tail": "范数",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5781
+   },
+   {
+    "head": "行向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5771
+   },
+   {
+    "head": "零向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5742
+   },
+   {
+    "head": "条件数",
+    "relation": "depends_on",
+    "tail": "范数",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.5324
+   },
+   {
+    "head": "豪斯霍尔德变换",
+    "relation": "involves",
+    "tail": "向量",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.4866
+   }
+  ],
+  "passages": [
+   "长度为一的向量叫作单位向量，任何非零向量除以它的范数就得到单位向量。",
+   "实数域上的有限维内积空间称为欧几里得空间，复数域上的称为酉空间。",
+   "由内积可以导出范数，从而定义向量的长度。",
+   "基底中向量的个数称为向量空间的维数。",
+   "向量在给定基底下的表示系数称为坐标。"
+  ]
+ },
+ "89": {
+  "entities": [
+   "矩阵",
+   "秩"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6343
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6245
+   },
+   {
+    "head": "三角矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.5885
+   },
+   {
+    "head": "矩阵乘法",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5882
+   },
+   {
+    "head": "秩",
+    "relation": "solved_by",
+    "tail": "初等行变换",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5586
+   },
+   {
+    "head": "秩-零化度定理",
+    "relation": "involves",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5246
+   },
+   {
+    "head": "满秩",
+    "relation": "depends_on",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5185
+   },
+   {
+    "head": "秩",
+    "relation": "depends_on",
+    "tail": "子式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5081
+   },
+   {
+    "head": "线性方程组解的判定定理",
+    "relation": "involves",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.4498
+   }
+  ],
+  "passages": [
+   "矩阵的秩可以定义为其非零子式的最高阶数。",
+   "对大型矩阵，幂法可以近似求出模最大的特征值。",
+   "通过初等行变换把矩阵化为行阶梯形矩阵后，非零行的个数就是矩阵的秩。",
+   "高斯-约当消元法会把增广矩阵化为行最简形矩阵。",
+   "矩阵的行空间与列空间的维数相同，都等于矩阵的秩。"
+  ]
+ },
+ "90": {
+  "entities": [
+   "向量",
+   "内积"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "单位向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6883
+   },
+   {
+    "head": "单位向量",
+    "relation": "depends_on",
+    "tail": "范数",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6166
+   },
+   {
+    "head": "范数",
+    "relation": "depends_on",
+    "tail": "内积",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6229
+   },
+   {
+    "head": "向量积",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.805
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6949
+   },
+   {
+    "head": "列向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6895
+   },
+   {
+    "head": "行向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6867
+   },
+   {
+    "head": "零向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6862
+   },
+   {
+    "head": "内积",
+    "relation": "has_property",
+    "tail": "正定性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6682
+   },
+   {
+    "head": "向量加法",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6678
+   },
+   {
+    "head": "内积空间",
+    "relation": "depends_on",
+    "tail": "内积",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.659
+   },
+   {
+    "head": "正交补",
+    "relation": "depends_on",
+    "tail": "内积",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5864
+   }
+  ],
+  "passages": [
+   "定义了内积的向量空间称为内积空间。",
+   "由内积可以导出范数，从而定义向量的长度。",
+   "内积具有正定性，向量与自身的内积非负且只有零向量的内积为零。",
+   "两个三维向量的向量积仍然是一个向量，并且与原来的两个向量都垂直。",
+   "长度为一的向量叫作单位向量，任何非零向量除以它的范数就得到单位向量。"
+  ]
+ },
+ "91": {
+  "entities": [
+   "方阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6757
+   },
+   {
+    "head": "方阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6746
+   },
+   {
+    "head": "埃尔米特矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6652
+   },
+   {
+    "head": "若尔当标准形",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6614
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6606
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6561
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6428
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6366
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6334
+   },
+   {
+    "head": "LU分解",
+    "relation": "acts_on",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6329
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6322
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6306
+   }
+  ],
+  "passages": [
+   "行数与列数相等的矩阵叫作方阵。",
+   "循环矩阵属于方阵的范畴。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "并不是所有方阵都可对角化，但每个复方阵都相似于一个若尔当标准形。"
+  ]
+ },
+ "92": {
+  "entities": [
+   "向量",
+   "向量组"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正交向量组",
+    "relation": "is_a",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6888
+   },
+   {
+    "head": "列向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6632
+   },
+   {
+    "head": "向量积",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6518
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6455
+   },
+   {
+    "head": "行向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6433
+   },
+   {
+    "head": "单位向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.642
+   },
+   {
+    "head": "零向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6313
+   },
+   {
+    "head": "线性组合",
+    "relation": "depends_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6206
+   },
+   {
+    "head": "向量加法",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6133
+   },
+   {
+    "head": "极大线性无关组",
+    "relation": "is_a",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5919
+   },
+   {
+    "head": "线性相关",
+    "relation": "depends_on",
+    "tail": "向量",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.5815
+   },
+   {
+    "head": "施密特正交化",
+    "relation": "acts_on",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5749
+   }
+  ],
+  "passages": [
+   "如果存在一组不全为零的系数使线性组合等于零向量，则称这组向量线性相关。",
+   "单位向量与零向量是两类特殊的向量。",
+   "若干向量的数乘与加法组合起来就构成线性组合。",
+   "两个三维向量的向量积仍然是一个向量，并且与原来的两个向量都垂直。",
+   "基底中向量的个数称为向量空间的维数。"
+  ]
+ },
+ "93": {
+  "entities": [
+   "方阵",
+   "特征值",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "特征方程",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5697
+   },
+   {
+    "head": "特征方程",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "extracted",
+    "reason": "路径",
+    "score": 0.6076
+   },
+   {
+    "head": "下三角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6583
+   },
+   {
+    "head": "三角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6504
+   },
+   {
+    "head": "上三角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6473
+   },
+   {
+    "head": "特征多项式",
+    "relation": "depends_on",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5942
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5828
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "多重线性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5714
+   },
+   {
+    "head": "行列式",
+    "relation": "has_property",
+    "tail": "交错性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5596
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5579
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "对角线法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5532
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "高斯消元法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5505
+   }
+  ],
+  "passages": [
+   "行数与列数相等的矩阵叫作方阵。",
+   "行列式乘法定理指出两个方阵乘积的行列式等于它们行列式的乘积。",
+   "方阵的迹等于主对角线元素之和，也等于全部特征值之和。",
+   "二阶和三阶行列式可以用对角线法则直接计算。",
+   "特征分解把可对角化的方阵写成由特征向量和特征值组成的矩阵乘积。"
+  ]
+ },
+ "94": {
+  "entities": [
+   "方阵",
+   "特征值",
+   "迹"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "特征值",
+    "relation": "part_of",
+    "tail": "特征分解",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5244
+   },
+   {
+    "head": "特征分解",
+    "relation": "acts_on",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6028
+   },
+   {
+    "head": "迹",
+    "relation": "depends_on",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6596
+   },
+   {
+    "head": "若尔当标准形",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6513
+   },
+   {
+    "head": "下三角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6417
+   },
+   {
+    "head": "三角矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6399
+   },
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "特征方程",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5867
+   },
+   {
+    "head": "若尔当块",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5492
+   },
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "幂法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5391
+   },
+   {
+    "head": "谱定理",
+    "relation": "involves",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5216
+   },
+   {
+    "head": "特征向量",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.4782
+   },
+   {
+    "head": "特征子空间",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.4749
+   }
+  ],
+  "passages": [
+   "方阵的迹等于主对角线元素之和，也等于全部特征值之和。",
+   "满足特征方程的数称为方阵的特征值，对应的非零向量称为特征向量。",
+   "特征分解把可对角化的方阵写成由特征向量和特征值组成的矩阵乘积。",
+   "奇异值是矩阵与其转置乘积的特征值的平方根。",
+   "并不是所有方阵都可对角化，但每个复方阵都相似于一个若尔当标准形。"
+  ]
+ },
+ "95": {
+  "entities": [
+   "向量",
+   "矩阵",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6378
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6304
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6083
+   },
+   {
+    "head": "吉文斯旋转矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6003
+   },
+   {
+    "head": "列向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5892
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5774
+   },
+   {
+    "head": "向量积",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5598
+   },
+   {
+    "head": "零向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5553
+   },
+   {
+    "head": "行向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5505
+   },
+   {
+    "head": "单位向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5491
+   },
+   {
+    "head": "向量加法",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5383
+   },
+   {
+    "head": "行列式",
+    "relation": "solved_by",
+    "tail": "对角线法则",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5275
+   }
+  ],
+  "passages": [
+   "把可逆矩阵与单位矩阵并排，做初等行变换直到左边变为单位矩阵，右边就是逆矩阵。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "相似对角化的目标是找到可逆矩阵把方阵化为对角矩阵。",
+   "若一个矩阵的转置等于它的相反数，则称它为反对称矩阵。",
+   "伴随矩阵由各元素的代数余子式转置排列而成。"
+  ]
+ },
+ "96": {
+  "entities": [
+   "矩阵",
+   "秩",
+   "维数"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "秩-零化度定理",
+    "relation": "involves",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5053
+   },
+   {
+    "head": "秩-零化度定理",
+    "relation": "involves",
+    "tail": "维数",
+    "source": "extracted",
+    "reason": "路径",
+    "score": 0.5932
+   },
+   {
+    "head": "QR分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6793
+   },
+   {
+    "head": "LU分解",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.6793
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6325
+   },
+   {
+    "head": "线性方程组解的判定定理",
+    "relation": "involves",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5919
+   },
+   {
+    "head": "维数公式",
+    "relation": "involves",
+    "tail": "维数",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5739
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5586
+   },
+   {
+    "head": "秩",
+    "relation": "solved_by",
+    "tail": "初等行变换",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5548
+   },
+   {
+    "head": "维数",
+    "relation": "depends_on",
+    "tail": "基底",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5048
+   },
+   {
+    "head": "秩",
+    "relation": "depends_on",
+    "tail": "子式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.4769
+   },
+   {
+    "head": "满秩",
+    "relation": "depends_on",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.4624
+   }
+  ],
+  "passages": [
+   "齐次线性方程组的解集构成一个子空间，称为零空间。",
+   "矩阵的行空间与列空间的维数相同，都等于矩阵的秩。",
+   "线性方程组还可以通过LU分解来求解，LU分解把方阵写成下三角矩阵与上三角矩阵的乘积。",
+   "线性方程组解的判定定理指出，方程组有解当且仅当系数矩阵的秩等于增广矩阵的秩。",
+   "可逆矩阵定理把可逆矩阵、行列式、秩和齐次线性方程组的解联系在一起。"
+  ]
+ },
+ "97": {
+  "entities": [
+   "反对称矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "反对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7227
+   },
+   {
+    "head": "反对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7199
+   },
+   {
+    "head": "反对称矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6817
+   }
+  ],
+  "passages": [
+   "主对角线上元素全为一的对角矩阵就是单位矩阵。",
+   "实对称矩阵总可以进行正交对角化。",
+   "主对角线以外的元素全为零的方阵称为对角矩阵。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "主对角线下方元素全为零的方阵是上三角矩阵。"
+  ]
+ },
+ "98": {
+  "entities": [
+   "可逆矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "求逆",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7434
+   },
+   {
+    "head": "逆矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7413
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7332
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7215
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7167
+   },
+   {
+    "head": "初等变换法",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7098
+   },
+   {
+    "head": "初等矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6992
+   },
+   {
+    "head": "伴随矩阵法",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6962
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6906
+   },
+   {
+    "head": "过渡矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6833
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6794
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6739
+   }
+  ],
+  "passages": [
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。",
+   "从一组基底到另一组基底的过渡矩阵一定是可逆矩阵。",
+   "初等矩阵是对单位矩阵做一次初等变换得到的矩阵，它总是可逆的。",
+   "把可逆矩阵与单位矩阵并排，做初等行变换直到左边变为单位矩阵，右边就是逆矩阵。",
+   "若存在可逆矩阵使两个方阵满足相似关系，则称它们为相似矩阵。"
+  ]
+ },
+ "99": {
+  "entities": [
+   "矩阵",
+   "矩阵乘法",
+   "可逆矩阵"
+  ],
+  "fuzzy": true,
+  "facts": [
+   {
+    "head": "矩阵乘法",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6684
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.6584
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6883
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6678
+   },
+   {
+    "head": "伴随矩阵法",
+    "relation": "acts_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6587
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6485
+   },
+   {
+    "head": "矩阵乘法",
+    "relation": "has_property",
+    "tail": "非交换性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6396
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6392
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6346
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6337
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6334
+   },
+   {
+    "head": "可逆矩阵",
+    "relation": "has_property",
+    "tail": "满秩",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6297
+   }
+  ],
+  "passages": [
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "行数与列数相等的矩阵叫作方阵。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。",
+   "矩阵的行空间与列空间的维数相同，都等于矩阵的秩。",
+   "逆矩阵可以用伴随矩阵法求得，也可以用初等变换法求得。"
+  ]
+ },
+ "100": {
+  "entities": [
+   "幂等矩阵",
+   "特征值"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "幂等矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7489
+   },
+   {
+    "head": "特征分解",
+    "relation": "acts_on",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5119
+   },
+   {
+    "head": "特征值",
+    "relation": "part_of",
+    "tail": "特征分解",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5215
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7838
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "幂等矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7332
+   },
+   {
+    "head": "幂等矩阵",
+    "relation": "depends_on",
+    "tail": "矩阵乘法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7293
+   },
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "幂法",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7158
+   },
+   {
+    "head": "特征值",
+    "relation": "solved_by",
+    "tail": "特征方程",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5817
+   },
+   {
+    "head": "奇异值",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5588
+   },
+   {
+    "head": "若尔当块",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5549
+   },
+   {
+    "head": "特征向量",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5344
+   },
+   {
+    "head": "特征子空间",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5245
+   }
+  ],
+  "passages": [
+   "某次幂等于零矩阵的方阵称为幂零矩阵。",
+   "对大型矩阵，幂法可以近似求出模最大的特征值。",
+   "矩阵指数的定义依赖于矩阵的幂。",
+   "正定矩阵的特征值全为正。",
+   "满足自身平方等于自身的方阵称为幂等矩阵，正交投影对应的矩阵就是幂等矩阵。"
+  ]
+ },
+ "101": {
+  "entities": [
+   "对称矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7714
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7629
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7475
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "has_property",
+    "tail": "对称性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.747
+   },
+   {
+    "head": "对角矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7377
+   },
+   {
+    "head": "半正定矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7303
+   },
+   {
+    "head": "实对称矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7244
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7146
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.699
+   },
+   {
+    "head": "希尔伯特矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6634
+   },
+   {
+    "head": "格拉姆矩阵",
+    "relation": "is_a",
+    "tail": "对称矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.649
+   }
+  ],
+  "passages": [
+   "若一个矩阵等于它的转置，则称它为对称矩阵。",
+   "二次型可以用一个实对称矩阵来表示。",
+   "行列式乘法定理指出两个方阵乘积的行列式等于它们行列式的乘积。",
+   "实对称矩阵总可以进行正交对角化。",
+   "若一个矩阵的转置等于它的相反数，则称它为反对称矩阵。"
+  ]
+ },
+ "102": {
+  "entities": [
+   "行列式",
+   "矩阵",
+   "正交矩阵"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6161
+   },
+   {
+    "head": "行列式乘法定理",
+    "relation": "involves",
+    "tail": "方阵",
+    "source": "extracted",
+    "reason": "路径",
+    "score": 0.6389
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "路径",
+    "score": 0.7822
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.8011
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7957
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "正交矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.769
+   },
+   {
+    "head": "正定矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7447
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7333
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7163
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7153
+   },
+   {
+    "head": "正交变换法",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.7132
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7129
+   }
+  ],
+  "passages": [
+   "正交矩阵的列向量构成一组标准正交基。",
+   "根据谱定理，任意实对称矩阵都可以通过正交矩阵化为对角矩阵。",
+   "实对称矩阵总可以进行正交对角化。",
+   "行数与列数相等的矩阵叫作方阵。",
+   "行列式等于零的方阵称为奇异矩阵。"
+  ]
+ },
+ "103": {
+  "entities": [
+   "零向量",
+   "向量组",
+   "线性相关"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "零向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7313
+   },
+   {
+    "head": "线性相关",
+    "relation": "depends_on",
+    "tail": "向量",
+    "source": "extracted",
+    "reason": "路径",
+    "score": 0.7618
+   },
+   {
+    "head": "极大线性无关组",
+    "relation": "is_a",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.74
+   },
+   {
+    "head": "极大线性无关组",
+    "relation": "depends_on",
+    "tail": "线性无关",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6444
+   },
+   {
+    "head": "线性无关",
+    "relation": "depends_on",
+    "tail": "线性相关",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6566
+   },
+   {
+    "head": "线性相关",
+    "relation": "depends_on",
+    "tail": "线性组合",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6837
+   },
+   {
+    "head": "正交向量组",
+    "relation": "is_a",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.68
+   },
+   {
+    "head": "施密特正交化",
+    "relation": "acts_on",
+    "tail": "向量组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5679
+   }
+  ],
+  "passages": [
+   "如果存在一组不全为零的系数使线性组合等于零向量，则称这组向量线性相关。",
+   "不是线性相关的向量组称为线性无关。",
+   "两两正交的非零向量构成正交向量组，正交向量组一定线性无关。",
+   "基础解系中的向量是线性无关的。",
+   "极大线性无关组所含向量的个数就是向量组的秩。"
+  ]
+ },
+ "104": {
+  "entities": [
+   "向量空间",
+   "向量",
+   "线性相关"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "向量空间",
+    "relation": "depends_on",
+    "tail": "数乘",
+    "source": "extracted",
+    "reason": "路径",
+    "score": 0.6265
+   },
+   {
+    "head": "数乘",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6331
+   },
+   {
+    "head": "线性相关",
+    "relation": "depends_on",
+    "tail": "向量",
+    "source": "extracted",
+    "reason": "路径",
+    "score": 0.7268
+   },
+   {
+    "head": "线性变换",
+    "relation": "depends_on",
+    "tail": "向量空间",
+    "source": "extracted",
+    "reason": "邻居",
+    "score": 0.6867
+   },
+   {
+    "head": "线性映射",
+    "relation": "depends_on",
+    "tail": "向量空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6744
+   },
+   {
+    "head": "线性组合",
+    "relation": "depends_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6653
+   },
+   {
+    "head": "线性相关",
+    "relation": "depends_on",
+    "tail": "线性组合",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6462
+   },
+   {
+    "head": "线性无关",
+    "relation": "depends_on",
+    "tail": "线性相关",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6405
+   },
+   {
+    "head": "列向量",
+    "relation": "is_a",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6152
+   },
+   {
+    "head": "像空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6106
+   },
+   {
+    "head": "列空间",
+    "relation": "is_a",
+    "tail": "向量空间",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6093
+   },
+   {
+    "head": "向量加法",
+    "relation": "acts_on",
+    "tail": "向量",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6083
+   }
+  ],
+  "passages": [
+   "不是线性相关的向量组称为线性无关。",
+   "如果存在一组不全为零的系数使线性组合等于零向量，则称这组向量线性相关。",
+   "基础解系中的向量是线性无关的。",
+   "两两正交的非零向量构成正交向量组，正交向量组一定线性无关。",
+   "既线性无关又能张成整个空间的向量组称为该空间的基底。"
+  ]
+ },
+ "105": {
+  "entities": [
+   "矩阵",
+   "秩",
+   "转置"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "秩",
+    "relation": "solved_by",
+    "tail": "初等行变换",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.617
+   },
+   {
+    "head": "初等行变换",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6225
+   },
+   {
+    "head": "转置",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.7982
+   },
+   {
+    "head": "共轭转置",
+    "relation": "acts_on",
+    "tail": "矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7334
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.721
+   },
+   {
+    "head": "对称矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7171
+   },
+   {
+    "head": "反对称矩阵",
+    "relation": "depends_on",
+    "tail": "转置",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6941
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6809
+   },
+   {
+    "head": "伴随矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6643
+   },
+   {
+    "head": "循环矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6585
+   },
+   {
+    "head": "满秩",
+    "relation": "depends_on",
+    "tail": "秩",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5922
+   },
+   {
+    "head": "秩",
+    "relation": "depends_on",
+    "tail": "子式",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.5883
+   }
+  ],
+  "passages": [
+   "若一个矩阵等于它的转置，则称它为对称矩阵。",
+   "若一个矩阵的转置等于它的相反数，则称它为反对称矩阵。",
+   "矩阵的行空间与列空间的维数相同，都等于矩阵的秩。",
+   "通过初等行变换把矩阵化为行阶梯形矩阵后，非零行的个数就是矩阵的秩。",
+   "伴随矩阵由各元素的代数余子式转置排列而成。"
+  ]
+ },
+ "106": {
+  "entities": [
+   "相似矩阵",
+   "特征向量"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "相似矩阵",
+    "relation": "depends_on",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7192
+   },
+   {
+    "head": "特征向量",
+    "relation": "solved_by",
+    "tail": "齐次线性方程组",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7079
+   },
+   {
+    "head": "若尔当标准形定理",
+    "relation": "involves",
+    "tail": "相似矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6716
+   },
+   {
+    "head": "特征向量",
+    "relation": "part_of",
+    "tail": "特征子空间",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6716
+   },
+   {
+    "head": "可对角化",
+    "relation": "depends_on",
+    "tail": "相似矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6645
+   },
+   {
+    "head": "特征向量",
+    "relation": "depends_on",
+    "tail": "特征值",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6642
+   }
+  ],
+  "passages": [
+   "相似矩阵具有相同的特征多项式、相同的迹和相同的行列式。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "若存在可逆矩阵使两个方阵满足相似关系，则称它们为相似矩阵。",
+   "相似对角化的目标是找到可逆矩阵把方阵化为对角矩阵。",
+   "如果方阵与某个对角矩阵相似，就称它可对角化。"
+  ]
+ },
+ "107": {
+  "entities": [],
+  "fuzzy": false,
+  "facts": [],
+  "passages": [
+   "系数只取正一、负一和零的标准形称为规范形。",
+   "内积具有正定性，向量与自身的内积非负且只有零向量的内积为零。",
+   "不是线性相关的向量组称为线性无关。",
+   "两两正交的非零向量构成正交向量组，正交向量组一定线性无关。",
+   "如果存在一组不全为零的系数使线性组合等于零向量，则称这组向量线性相关。"
+  ]
+ },
+ "108": {
+  "entities": [
+   "正交矩阵",
+   "行列式"
+  ],
+  "fuzzy": false,
+  "facts": [
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6959
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "可逆矩阵",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.5016
+   },
+   {
+    "head": "可逆矩阵定理",
+    "relation": "involves",
+    "tail": "行列式",
+    "source": "seed",
+    "reason": "路径",
+    "score": 0.6231
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7376
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "方阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7214
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "正规矩阵",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.7208
+   },
+   {
+    "head": "单位矩阵",
+    "relation": "is_a",
+    "tail": "正交矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.7168
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "可逆性",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.666
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "正交性",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6658
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "is_a",
+    "tail": "酉矩阵",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6616
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "保持长度",
+    "source": "inferred",
+    "reason": "邻居",
+    "score": 0.6591
+   },
+   {
+    "head": "正交矩阵",
+    "relation": "has_property",
+    "tail": "保持内积",
+    "source": "seed",
+    "reason": "邻居",
+    "score": 0.6579
+   }
+  ],
+  "passages": [
+   "只有一行的矩阵称为行向量，只有一列的矩阵称为列向量。",
+   "正交矩阵的列向量构成一组标准正交基。",
+   "实对称矩阵总可以进行正交对角化。",
+   "实对称矩阵的特征值都是实数，并且属于不同特征值的特征向量相互正交。",
+   "二次型的矩阵是实对称矩阵，正交变换法可以把它化为标准形。"
+  ]
+ }
+}

@@ -210,7 +210,23 @@ MATCH (a {kg:'linear_algebra', source:'extracted'})-[r]->(b) RETURN a.name, type
 .venv/bin/python kg/build_kg.py --threshold 0.95
 ```
 
-## 8. 局限与可改进方向
+## 8. 在图谱上做问答（GraphRAG）
+
+`qa/` 目录在这个图谱上实现了检索增强问答，并对比了"不检索 / 向量 RAG / GraphRAG / 混合"四种方案，详见 [qa/README.md](qa/README.md)。
+
+| 方案 | 总体（108 题） | 需多跳/推理（29 题） |
+|---|---|---|
+| 不检索 | 95.4% | 100.0% |
+| 向量 RAG | 88.9% | 75.9% |
+| GraphRAG | 96.3% | 100.0% |
+
+主要结论：对 Qwen2.5-7B 来说这些题接近天花板，GraphRAG 和不检索没有显著差别；但向量 RAG 在多跳题上明显变差，而 GraphRAG 没有，因为图谱里已经物化了推理结论。
+
+```bash
+.venv/bin/python qa/ask.py "格拉姆矩阵一定可对角化吗？"
+```
+
+## 9. 局限与可改进方向
 
 - **语料规模小、以模板句为主**：可以接入真实教材或讲义文本，并人工标注一批句子作为干净的测试集。
 - **远程监督标签有噪声**：可以加多实例学习（MIL）、句子级注意力，或用 LLM 辅助校对标签。

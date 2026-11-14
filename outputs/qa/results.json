@@ -1,0 +1,48 @@
+{
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "n": 108,
+  "accuracy": {
+    "none": {
+      "direct": 1.0,
+      "all": 0.9537,
+      "multihop": 1.0,
+      "trap": 0.963,
+      "outside": 0.8333
+    },
+    "vector": {
+      "direct": 1.0,
+      "all": 0.8889,
+      "multihop": 0.7586,
+      "trap": 1.0,
+      "outside": 0.7917
+    },
+    "graph": {
+      "direct": 1.0,
+      "all": 0.963,
+      "multihop": 1.0,
+      "trap": 1.0,
+      "outside": 0.8333
+    },
+    "hybrid": {
+      "direct": 1.0,
+      "all": 0.9537,
+      "multihop": 0.9655,
+      "trap": 1.0,
+      "outside": 0.8333
+    }
+  },
+  "counts": {
+    "direct": 28,
+    "all": 108,
+    "multihop": 29,
+    "trap": 27,
+    "outside": 24
+  },
+  "avg_prompt_tokens": {
+    "none": 67,
+    "vector": 204,
+    "graph": 214,
+    "hybrid": 323
+  },
+  "entity_link_rate": 0.9722
+}
